@@ -1,0 +1,25 @@
+disabled_rules:
+  - function_parameter_count
+  - line_length
+  - identifier_name
+  - function_body_length
+  - trailing_whitespace
+  - type_body_length
+  - type_name
+  - force_try
+  - force_cast
+  - notification_center_detachment
+  - nesting
+  - todo
+  - computed_accessors_order
+  - file_length
+  - large_tuple
+
+included:
+  - Sources
+excluded:
+  - Pods
+
+warning_threshold: 200
+
+reporter: "xcode"
