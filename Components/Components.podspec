@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'Components'
-  s.version = '0.1'
+  s.version = '0.2'
   s.summary = 'Components'
   s.homepage = 'https://github.com/lamnguyen1112/components.git'
   s.authors = { 'Lam Nguyen' => 'lamnguyen1112@gmail.com' }
