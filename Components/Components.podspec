@@ -7,11 +7,11 @@ Pod::Spec.new do |s|
   s.source = { :git => 'https://github.com/lamnguyen1112/components.git', :tag => s.version }
 
   s.source_files = 'Components/Sources/**/*.{swift}'
-  s.resource = 'Components/Resources/**/*.*'
+#  s.resource = 'Components/Resources/**/*.*'
 
   s.ios.deployment_target = '13.0'
   s.swift_version = '5.0'
-  s.license = { :type => 'MIT' }
+  s.license      = { :type => "MIT", :file => "LICENSE" }
 
 #  s.static_framework = true
 #  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }

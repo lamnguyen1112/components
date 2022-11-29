@@ -5,9 +5,9 @@
 //  Created by Lazyman on 11/29/22.
 //
 
-import UIKit
+import CoreExtension
 import SnapKit
-import LNExtensions
+import UIKit
 
 public class CardView: UIView {
     lazy var circleView: UIView = {
@@ -15,15 +15,15 @@ public class CardView: UIView {
         view.borderColor = UIColor.blue
         view.borderWidth = 1.0
         view.backgroundColor = UIColor.cyan
-        
+
         return view
     }()
-    
-    public override init(frame: CGRect) {
+
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         setupSubView()
     }
-    
+
     public required init?(coder: NSCoder) {
         super.init(coder: coder)
         setupSubView()
@@ -31,7 +31,7 @@ public class CardView: UIView {
 
     func setupSubView() {
         backgroundColor = .purple
-        circleView.cornerRadius = bounds.width/2
+        circleView.cornerRadius = bounds.width / 2
         addSubview(circleView)
         circleView.snp.makeConstraints { make in
             make.width.height.equalToSuperview()

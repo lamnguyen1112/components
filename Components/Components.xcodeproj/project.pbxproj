@@ -27,6 +27,7 @@
 		E0CCAE5A293668B600DD3D99 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0CCAE58293668B600DD3D99 /* ViewController.xib */; };
 		E0CCAE5E29366C4100DD3D99 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CCAE5D29366C4100DD3D99 /* CardView.swift */; };
 		E0CCAE602936796A00DD3D99 /* Asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0CCAE5F2936796A00DD3D99 /* Asset.xcassets */; };
+		E0CCAE98293689C200DD3D99 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E0CCAE97293689C200DD3D99 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +89,7 @@
 		E0CCAE58293668B600DD3D99 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		E0CCAE5D29366C4100DD3D99 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		E0CCAE5F2936796A00DD3D99 /* Asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Asset.xcassets; sourceTree = "<group>"; };
+		E0CCAE97293689C200DD3D99 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,6 +213,7 @@
 				E0CCAE4B2936666E00DD3D99 /* .swiftlint.yml */,
 				E0CCAE472936666E00DD3D99 /* Gemfile */,
 				E0CCAE482936666E00DD3D99 /* swiftgen.yml */,
+				E0CCAE97293689C200DD3D99 /* LICENSE */,
 				E0CCAE492936666E00DD3D99 /* Components.podspec */,
 			);
 			name = Deployment;
@@ -359,6 +362,7 @@
 			files = (
 				E0CCAE602936796A00DD3D99 /* Asset.xcassets in Resources */,
 				E0CCAE512936666E00DD3D99 /* .swiftlint.yml in Resources */,
+				E0CCAE98293689C200DD3D99 /* LICENSE in Resources */,
 				E0CCAE502936666E00DD3D99 /* .gitignore in Resources */,
 				E0CCAE4D2936666E00DD3D99 /* Gemfile in Resources */,
 				E0CCAE4E2936666E00DD3D99 /* swiftgen.yml in Resources */,
