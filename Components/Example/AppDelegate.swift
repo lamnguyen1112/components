@@ -5,8 +5,8 @@
 //  Created by Lazyman on 11/29/22.
 //
 
+import CoreExtension
 import UIKit
-import LNExtensions
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         window = UIWindow(frame: UIScreen.main.bounds)
         let viewController = ViewController.instanceFromNibClass()
-        
+
         window?.rootViewController = viewController
         window?.makeKeyAndVisible()
         return true

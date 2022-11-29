@@ -23,10 +23,10 @@
 		E0CCAE502936666E00DD3D99 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E0CCAE4A2936666E00DD3D99 /* .gitignore */; };
 		E0CCAE512936666E00DD3D99 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = E0CCAE4B2936666E00DD3D99 /* .swiftlint.yml */; };
 		E0CCAE522936666E00DD3D99 /* .bartycrouch.toml in Resources */ = {isa = PBXBuildFile; fileRef = E0CCAE4C2936666E00DD3D99 /* .bartycrouch.toml */; };
-		E0CCAE552936683B00DD3D99 /* LNExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = E0CCAE542936683B00DD3D99 /* LNExtensions */; };
 		E0CCAE59293668B600DD3D99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CCAE57293668B600DD3D99 /* ViewController.swift */; };
 		E0CCAE5A293668B600DD3D99 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0CCAE58293668B600DD3D99 /* ViewController.xib */; };
 		E0CCAE5E29366C4100DD3D99 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CCAE5D29366C4100DD3D99 /* CardView.swift */; };
+		E0CCAE602936796A00DD3D99 /* Asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0CCAE5F2936796A00DD3D99 /* Asset.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +87,7 @@
 		E0CCAE57293668B600DD3D99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E0CCAE58293668B600DD3D99 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		E0CCAE5D29366C4100DD3D99 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		E0CCAE5F2936796A00DD3D99 /* Asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Asset.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +95,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0CCAE552936683B00DD3D99 /* LNExtensions in Frameworks */,
 				A02F84D9AD1037009534C672 /* Pods_Components.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -176,6 +176,7 @@
 		E0CCAE272936624500DD3D99 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E0CCAE5F2936796A00DD3D99 /* Asset.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -261,7 +262,6 @@
 			);
 			name = Components;
 			packageProductDependencies = (
-				E0CCAE542936683B00DD3D99 /* LNExtensions */,
 			);
 			productName = Components;
 			productReference = E0CCAE0E2936622300DD3D99 /* Components.framework */;
@@ -340,7 +340,6 @@
 			);
 			mainGroup = E0CCAE042936622300DD3D99;
 			packageReferences = (
-				E0CCAE532936683B00DD3D99 /* XCRemoteSwiftPackageReference "LNExtensions" */,
 			);
 			productRefGroup = E0CCAE0F2936622300DD3D99 /* Products */;
 			projectDirPath = "";
@@ -358,6 +357,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0CCAE602936796A00DD3D99 /* Asset.xcassets in Resources */,
 				E0CCAE512936666E00DD3D99 /* .swiftlint.yml in Resources */,
 				E0CCAE502936666E00DD3D99 /* .gitignore in Resources */,
 				E0CCAE4D2936666E00DD3D99 /* Gemfile in Resources */,
@@ -865,25 +865,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		E0CCAE532936683B00DD3D99 /* XCRemoteSwiftPackageReference "LNExtensions" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/lamnguyen1112/LNExtensions.git";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		E0CCAE542936683B00DD3D99 /* LNExtensions */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = E0CCAE532936683B00DD3D99 /* XCRemoteSwiftPackageReference "LNExtensions" */;
-			productName = LNExtensions;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E0CCAE052936622300DD3D99 /* Project object */;
 }
