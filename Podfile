@@ -9,7 +9,7 @@ target 'Components' do
   use_frameworks!
   # Pods for Components
   pod 'CoreExtension', '0.0.2'
-  pod 'SnapKit', '~> 5.6.0'
+  pod 'SnapKit', '5.6.0'
   pod 'RxSwift', '6.5.0'
   pod 'RxCocoa', '6.5.0'
   pod 'RxSwiftExt'
