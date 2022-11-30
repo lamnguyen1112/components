@@ -4,7 +4,8 @@ Pod::Spec.new do |s|
   s.summary = 'Components'
   s.homepage = 'https://github.com/lamnguyen1112/components.git'
   s.authors = { 'Lam Nguyen' => 'lamnguyen1112@gmail.com' }
-  s.source = { :git => 'https://github.com/lamnguyen1112/components.git', :tag => s.version }
+  s.source = { :git => 'https://github.com/lamnguyen1112/components.git', :branch => 'main',
+                   :tag => s.version.to_s }
 
   s.source_files = 'Sources/**/*.{swift}'
 #  s.resource = 'Resources/**/*.*'
@@ -18,7 +19,7 @@ Pod::Spec.new do |s|
 #  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   
   s.dependency 'CoreExtension'
-  s.dependency 'SnapKit', '~> 5.6.0'
+  s.dependency 'SnapKit'
   s.dependency 'RxSwift', '6.5.0'
   s.dependency 'RxCocoa', '6.5.0'
   s.dependency 'RxSwiftExt'
