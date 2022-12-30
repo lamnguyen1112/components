@@ -10,6 +10,15 @@
 		605A6376E03BD65D647CD356 /* Pods_Components_ComponentsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 767326B5362D4F23AD9DD8A2 /* Pods_Components_ComponentsTests.framework */; };
 		787B71C8346C027597F65A8D /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 251865A456FE43D673A41CD5 /* Pods_Example.framework */; };
 		A02F84D9AD1037009534C672 /* Pods_Components.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2CB8FAE47A7CBD9F6213052 /* Pods_Components.framework */; };
+		E09F230E295F61D2002ECF4A /* Observable+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F230D295F61D2002ECF4A /* Observable+Ex.swift */; };
+		E09F231C295F830B002ECF4A /* HelloWorldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F231A295F830B002ECF4A /* HelloWorldViewController.swift */; };
+		E09F231D295F830B002ECF4A /* HelloWorldViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E09F231B295F830B002ECF4A /* HelloWorldViewController.xib */; };
+		E09F2325295F84B2002ECF4A /* TestLoadingNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F2320295F84B2002ECF4A /* TestLoadingNavigator.swift */; };
+		E09F2327295F84B2002ECF4A /* TestLoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F2322295F84B2002ECF4A /* TestLoadingViewController.swift */; };
+		E09F2328295F84B2002ECF4A /* TestLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F2323295F84B2002ECF4A /* TestLoadingViewModel.swift */; };
+		E09F232E295F89A6002ECF4A /* LoadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E09F232D295F89A6002ECF4A /* LoadingViewController.xib */; };
+		E09F2333295F9239002ECF4A /* BulletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F2331295F9239002ECF4A /* BulletViewController.swift */; };
+		E09F2334295F9239002ECF4A /* BulletViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E09F2332295F9239002ECF4A /* BulletViewController.xib */; };
 		E0CCAE172936622400DD3D99 /* Components.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0CCAE0E2936622300DD3D99 /* Components.framework */; };
 		E0CCAE1C2936622400DD3D99 /* ComponentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CCAE1B2936622400DD3D99 /* ComponentsTests.swift */; };
 		E0CCAE2F2936628100DD3D99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CCAE2E2936628100DD3D99 /* AppDelegate.swift */; };
@@ -17,17 +26,14 @@
 		E0CCAE3B2936628200DD3D99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0CCAE392936628200DD3D99 /* LaunchScreen.storyboard */; };
 		E0CCAE412936629400DD3D99 /* Components.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0CCAE0E2936622300DD3D99 /* Components.framework */; };
 		E0CCAE422936629400DD3D99 /* Components.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E0CCAE0E2936622300DD3D99 /* Components.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		E0CCAE4D2936666E00DD3D99 /* Gemfile in Resources */ = {isa = PBXBuildFile; fileRef = E0CCAE472936666E00DD3D99 /* Gemfile */; };
-		E0CCAE4E2936666E00DD3D99 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = E0CCAE482936666E00DD3D99 /* swiftgen.yml */; };
-		E0CCAE4F2936666E00DD3D99 /* Components.podspec in Resources */ = {isa = PBXBuildFile; fileRef = E0CCAE492936666E00DD3D99 /* Components.podspec */; };
 		E0CCAE59293668B600DD3D99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CCAE57293668B600DD3D99 /* ViewController.swift */; };
 		E0CCAE5A293668B600DD3D99 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0CCAE58293668B600DD3D99 /* ViewController.xib */; };
 		E0CCAE5E29366C4100DD3D99 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CCAE5D29366C4100DD3D99 /* CardView.swift */; };
 		E0CCAE602936796A00DD3D99 /* Asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0CCAE5F2936796A00DD3D99 /* Asset.xcassets */; };
-		E0CCAE98293689C200DD3D99 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E0CCAE97293689C200DD3D99 /* LICENSE */; };
-		E0CCAE9C29368BCB00DD3D99 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E0CCAE9929368BCB00DD3D99 /* .gitignore */; };
-		E0CCAE9D29368BCB00DD3D99 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = E0CCAE9A29368BCB00DD3D99 /* .swiftlint.yml */; };
-		E0CCAE9E29368BCB00DD3D99 /* .bartycrouch.toml in Resources */ = {isa = PBXBuildFile; fileRef = E0CCAE9B29368BCB00DD3D99 /* .bartycrouch.toml */; };
+		E0DB7B38295DF66A00F81C61 /* LoadingNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DB7B33295DF66A00F81C61 /* LoadingNavigator.swift */; };
+		E0DB7B3A295DF66A00F81C61 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DB7B35295DF66A00F81C61 /* LoadingViewController.swift */; };
+		E0DB7B3B295DF66A00F81C61 /* LoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DB7B36295DF66A00F81C61 /* LoadingViewModel.swift */; };
+		E0DB7B40295DF72B00F81C61 /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DB7B3F295DF72B00F81C61 /* ViewModelType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +77,17 @@
 		948C95C321167E6D89ABFF73 /* Pods-Components.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Components.release.xcconfig"; path = "Target Support Files/Pods-Components/Pods-Components.release.xcconfig"; sourceTree = "<group>"; };
 		A2CB8FAE47A7CBD9F6213052 /* Pods_Components.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Components.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9C52486E2D0564DC7B70972 /* Pods-Components.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Components.debug.xcconfig"; path = "Target Support Files/Pods-Components/Pods-Components.debug.xcconfig"; sourceTree = "<group>"; };
+		E09F2309295F6163002ECF4A /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = Podfile; sourceTree = "<group>"; };
+		E09F230D295F61D2002ECF4A /* Observable+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observable+Ex.swift"; sourceTree = "<group>"; };
+		E09F231A295F830B002ECF4A /* HelloWorldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldViewController.swift; sourceTree = "<group>"; };
+		E09F231B295F830B002ECF4A /* HelloWorldViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HelloWorldViewController.xib; sourceTree = "<group>"; };
+		E09F2320295F84B2002ECF4A /* TestLoadingNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLoadingNavigator.swift; sourceTree = "<group>"; };
+		E09F2322295F84B2002ECF4A /* TestLoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLoadingViewController.swift; sourceTree = "<group>"; };
+		E09F2323295F84B2002ECF4A /* TestLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLoadingViewModel.swift; sourceTree = "<group>"; };
+		E09F232A295F872D002ECF4A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E09F232D295F89A6002ECF4A /* LoadingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingViewController.xib; sourceTree = "<group>"; };
+		E09F2331295F9239002ECF4A /* BulletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulletViewController.swift; sourceTree = "<group>"; };
+		E09F2332295F9239002ECF4A /* BulletViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BulletViewController.xib; sourceTree = "<group>"; };
 		E0CCAE0E2936622300DD3D99 /* Components.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Components.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0CCAE162936622400DD3D99 /* ComponentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComponentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0CCAE1B2936622400DD3D99 /* ComponentsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentsTests.swift; sourceTree = "<group>"; };
@@ -90,6 +107,10 @@
 		E0CCAE9929368BCB00DD3D99 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		E0CCAE9A29368BCB00DD3D99 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		E0CCAE9B29368BCB00DD3D99 /* .bartycrouch.toml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .bartycrouch.toml; sourceTree = "<group>"; };
+		E0DB7B33295DF66A00F81C61 /* LoadingNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingNavigator.swift; sourceTree = "<group>"; };
+		E0DB7B35295DF66A00F81C61 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		E0DB7B36295DF66A00F81C61 /* LoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewModel.swift; sourceTree = "<group>"; };
+		E0DB7B3F295DF72B00F81C61 /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +156,60 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		E09F230B295F6192002ECF4A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E09F230C295F61A3002ECF4A /* Rx */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E09F230C295F61A3002ECF4A /* Rx */ = {
+			isa = PBXGroup;
+			children = (
+				E09F230D295F61D2002ECF4A /* Observable+Ex.swift */,
+			);
+			path = Rx;
+			sourceTree = "<group>";
+		};
+		E09F231E295F8471002ECF4A /* TestLoading */ = {
+			isa = PBXGroup;
+			children = (
+				E09F2320295F84B2002ECF4A /* TestLoadingNavigator.swift */,
+				E09F2322295F84B2002ECF4A /* TestLoadingViewController.swift */,
+				E09F2323295F84B2002ECF4A /* TestLoadingViewModel.swift */,
+			);
+			path = TestLoading;
+			sourceTree = "<group>";
+		};
+		E09F231F295F847C002ECF4A /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				E09F2330295F920B002ECF4A /* BulletList */,
+				E09F231E295F8471002ECF4A /* TestLoading */,
+				E09F232F295F8D5E002ECF4A /* HelloWorld */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		E09F232F295F8D5E002ECF4A /* HelloWorld */ = {
+			isa = PBXGroup;
+			children = (
+				E09F231A295F830B002ECF4A /* HelloWorldViewController.swift */,
+				E09F231B295F830B002ECF4A /* HelloWorldViewController.xib */,
+			);
+			path = HelloWorld;
+			sourceTree = "<group>";
+		};
+		E09F2330295F920B002ECF4A /* BulletList */ = {
+			isa = PBXGroup;
+			children = (
+				E09F2331295F9239002ECF4A /* BulletViewController.swift */,
+				E09F2332295F9239002ECF4A /* BulletViewController.xib */,
+			);
+			path = BulletList;
+			sourceTree = "<group>";
+		};
 		E0CCAE042936622300DD3D99 = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +245,9 @@
 		E0CCAE262936624000DD3D99 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				E09F230B295F6192002ECF4A /* Extension */,
+				E0DB7B3E295DF70400F81C61 /* Base */,
+				E0DB7B32295DF65D00F81C61 /* Loading */,
 				E0CCAE5C29366C2900DD3D99 /* CardView */,
 			);
 			path = Sources;
@@ -189,6 +267,7 @@
 				E0CCAE2E2936628100DD3D99 /* AppDelegate.swift */,
 				E0CCAE57293668B600DD3D99 /* ViewController.swift */,
 				E0CCAE58293668B600DD3D99 /* ViewController.xib */,
+				E09F231F295F847C002ECF4A /* Features */,
 				E0CCAE5B29366B2E00DD3D99 /* Resources */,
 				E0CCAE3C2936628200DD3D99 /* Info.plist */,
 			);
@@ -211,10 +290,12 @@
 				E0CCAE9B29368BCB00DD3D99 /* .bartycrouch.toml */,
 				E0CCAE9929368BCB00DD3D99 /* .gitignore */,
 				E0CCAE9A29368BCB00DD3D99 /* .swiftlint.yml */,
+				E09F232A295F872D002ECF4A /* README.md */,
 				E0CCAE472936666E00DD3D99 /* Gemfile */,
 				E0CCAE482936666E00DD3D99 /* swiftgen.yml */,
 				E0CCAE97293689C200DD3D99 /* LICENSE */,
 				E0CCAE492936666E00DD3D99 /* Components.podspec */,
+				E09F2309295F6163002ECF4A /* Podfile */,
 			);
 			name = Deployment;
 			sourceTree = "<group>";
@@ -234,6 +315,25 @@
 				E0CCAE5D29366C4100DD3D99 /* CardView.swift */,
 			);
 			path = CardView;
+			sourceTree = "<group>";
+		};
+		E0DB7B32295DF65D00F81C61 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				E0DB7B33295DF66A00F81C61 /* LoadingNavigator.swift */,
+				E0DB7B36295DF66A00F81C61 /* LoadingViewModel.swift */,
+				E0DB7B35295DF66A00F81C61 /* LoadingViewController.swift */,
+				E09F232D295F89A6002ECF4A /* LoadingViewController.xib */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		E0DB7B3E295DF70400F81C61 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E0DB7B3F295DF72B00F81C61 /* ViewModelType.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -361,13 +461,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0CCAE602936796A00DD3D99 /* Asset.xcassets in Resources */,
-				E0CCAE98293689C200DD3D99 /* LICENSE in Resources */,
-				E0CCAE4D2936666E00DD3D99 /* Gemfile in Resources */,
-				E0CCAE9D29368BCB00DD3D99 /* .swiftlint.yml in Resources */,
-				E0CCAE4E2936666E00DD3D99 /* swiftgen.yml in Resources */,
-				E0CCAE9C29368BCB00DD3D99 /* .gitignore in Resources */,
-				E0CCAE4F2936666E00DD3D99 /* Components.podspec in Resources */,
-				E0CCAE9E29368BCB00DD3D99 /* .bartycrouch.toml in Resources */,
+				E09F232E295F89A6002ECF4A /* LoadingViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,9 +476,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E09F231D295F830B002ECF4A /* HelloWorldViewController.xib in Resources */,
 				E0CCAE3B2936628200DD3D99 /* LaunchScreen.storyboard in Resources */,
 				E0CCAE5A293668B600DD3D99 /* ViewController.xib in Resources */,
 				E0CCAE382936628200DD3D99 /* Assets.xcassets in Resources */,
+				E09F2334295F9239002ECF4A /* BulletViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,7 +594,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0DB7B38295DF66A00F81C61 /* LoadingNavigator.swift in Sources */,
 				E0CCAE5E29366C4100DD3D99 /* CardView.swift in Sources */,
+				E0DB7B3B295DF66A00F81C61 /* LoadingViewModel.swift in Sources */,
+				E0DB7B40295DF72B00F81C61 /* ViewModelType.swift in Sources */,
+				E0DB7B3A295DF66A00F81C61 /* LoadingViewController.swift in Sources */,
+				E09F230E295F61D2002ECF4A /* Observable+Ex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,8 +615,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E09F2333295F9239002ECF4A /* BulletViewController.swift in Sources */,
 				E0CCAE59293668B600DD3D99 /* ViewController.swift in Sources */,
 				E0CCAE2F2936628100DD3D99 /* AppDelegate.swift in Sources */,
+				E09F2327295F84B2002ECF4A /* TestLoadingViewController.swift in Sources */,
+				E09F2325295F84B2002ECF4A /* TestLoadingNavigator.swift in Sources */,
+				E09F2328295F84B2002ECF4A /* TestLoadingViewModel.swift in Sources */,
+				E09F231C295F830B002ECF4A /* HelloWorldViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

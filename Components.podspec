@@ -22,7 +22,10 @@ Pod::Spec.new do |s|
   s.dependency 'SnapKit', '5.6.0'
   s.dependency 'RxSwift', '6.5.0'
   s.dependency 'RxCocoa', '6.5.0'
+  s.dependency 'Action'
   s.dependency 'RxSwiftExt'
   s.dependency 'SkeletonView'
+  s.dependency 'Nantes'
+  s.dependency 'AttributedStringBuilder'
 
 end

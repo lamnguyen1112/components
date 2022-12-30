@@ -12,8 +12,17 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
-        let cardView = CardView(frame: CGRect(x: 100, y: 100, width: 200, height: 200))
-        view.addSubview(cardView)
+    }
+    
+    @IBAction func showLoading(_ sender: Any) {
+        testLoading()
+    }
+    
+    func testLoading() {
+        let navigator = DefaultTestLoadingNavigator(navigationController: navigationController!)
+        let viewModel = TestLoadingViewModel(navigator: navigator)
+        let viewController = TestLoadingViewController(viewModel: viewModel)
+//
+        navigationController?.pushViewController(viewController, animated: true)
     }
 }
