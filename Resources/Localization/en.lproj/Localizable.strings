@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  Components
+
+  Created by Lazyman on 12/31/22.
+  
+*/
+
+"common.alert.title" = "alert";
+"home.title" = "Home";

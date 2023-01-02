@@ -12,6 +12,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoadingViewController" customModule="Components">
             <connections>
                 <outlet property="activityIndicator" destination="LKw-yv-nZR" id="z9B-ms-FIq"/>
+                <outlet property="imageView" destination="8Oo-3d-OSJ" id="zXj-F7-56Q"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -23,11 +24,20 @@
                 <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="LKw-yv-nZR">
                     <rect key="frame" x="188.5" y="429.5" width="37" height="37"/>
                 </activityIndicatorView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8Oo-3d-OSJ">
+                    <rect key="frame" x="87" y="261.5" width="240" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="128" id="Rz2-5B-0kv"/>
+                        <constraint firstAttribute="width" constant="240" id="eYM-Ei-dLo"/>
+                    </constraints>
+                </imageView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
+                <constraint firstItem="8Oo-3d-OSJ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="3BN-i8-1Bq"/>
                 <constraint firstItem="LKw-yv-nZR" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="9Hb-01-irV"/>
+                <constraint firstItem="LKw-yv-nZR" firstAttribute="top" secondItem="8Oo-3d-OSJ" secondAttribute="bottom" constant="40" id="WHK-GQ-bPk"/>
                 <constraint firstItem="LKw-yv-nZR" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="brA-yj-dcU"/>
             </constraints>
             <point key="canvasLocation" x="75" y="69"/>

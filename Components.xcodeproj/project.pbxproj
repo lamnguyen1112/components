@@ -19,6 +19,12 @@
 		E09F232E295F89A6002ECF4A /* LoadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E09F232D295F89A6002ECF4A /* LoadingViewController.xib */; };
 		E09F2333295F9239002ECF4A /* BulletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F2331295F9239002ECF4A /* BulletViewController.swift */; };
 		E09F2334295F9239002ECF4A /* BulletViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E09F2332295F9239002ECF4A /* BulletViewController.xib */; };
+		E09F233B29631B6E002ECF4A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E09F233D29631B6E002ECF4A /* Localizable.strings */; };
+		E09F234429632812002ECF4A /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E09F2336296035FB002ECF4A /* Colors.xcassets */; };
+		E09F234829632D0E002ECF4A /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = E09F234729632D0E002ECF4A /* swiftgen.yml */; };
+		E09F234E29632D89002ECF4A /* Assets+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F234C29632D89002ECF4A /* Assets+Generated.swift */; };
+		E09F235029632DFB002ECF4A /* Colors+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F234F29632DFB002ECF4A /* Colors+Generated.swift */; };
+		E09F235229632FEB002ECF4A /* L10n.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F235129632FEB002ECF4A /* L10n.swift */; };
 		E0CCAE172936622400DD3D99 /* Components.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0CCAE0E2936622300DD3D99 /* Components.framework */; };
 		E0CCAE1C2936622400DD3D99 /* ComponentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CCAE1B2936622400DD3D99 /* ComponentsTests.swift */; };
 		E0CCAE2F2936628100DD3D99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CCAE2E2936628100DD3D99 /* AppDelegate.swift */; };
@@ -29,7 +35,7 @@
 		E0CCAE59293668B600DD3D99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CCAE57293668B600DD3D99 /* ViewController.swift */; };
 		E0CCAE5A293668B600DD3D99 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0CCAE58293668B600DD3D99 /* ViewController.xib */; };
 		E0CCAE5E29366C4100DD3D99 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CCAE5D29366C4100DD3D99 /* CardView.swift */; };
-		E0CCAE602936796A00DD3D99 /* Asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0CCAE5F2936796A00DD3D99 /* Asset.xcassets */; };
+		E0CCAE602936796A00DD3D99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0CCAE5F2936796A00DD3D99 /* Assets.xcassets */; };
 		E0DB7B38295DF66A00F81C61 /* LoadingNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DB7B33295DF66A00F81C61 /* LoadingNavigator.swift */; };
 		E0DB7B3A295DF66A00F81C61 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DB7B35295DF66A00F81C61 /* LoadingViewController.swift */; };
 		E0DB7B3B295DF66A00F81C61 /* LoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DB7B36295DF66A00F81C61 /* LoadingViewModel.swift */; };
@@ -88,6 +94,12 @@
 		E09F232D295F89A6002ECF4A /* LoadingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingViewController.xib; sourceTree = "<group>"; };
 		E09F2331295F9239002ECF4A /* BulletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulletViewController.swift; sourceTree = "<group>"; };
 		E09F2332295F9239002ECF4A /* BulletViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BulletViewController.xib; sourceTree = "<group>"; };
+		E09F2336296035FB002ECF4A /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		E09F233C29631B6E002ECF4A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E09F234729632D0E002ECF4A /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
+		E09F234C29632D89002ECF4A /* Assets+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Assets+Generated.swift"; sourceTree = "<group>"; };
+		E09F234F29632DFB002ECF4A /* Colors+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Colors+Generated.swift"; sourceTree = "<group>"; };
+		E09F235129632FEB002ECF4A /* L10n.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L10n.swift; sourceTree = "<group>"; };
 		E0CCAE0E2936622300DD3D99 /* Components.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Components.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0CCAE162936622400DD3D99 /* ComponentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComponentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0CCAE1B2936622400DD3D99 /* ComponentsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentsTests.swift; sourceTree = "<group>"; };
@@ -97,12 +109,11 @@
 		E0CCAE3A2936628200DD3D99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0CCAE3C2936628200DD3D99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0CCAE472936666E00DD3D99 /* Gemfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
-		E0CCAE482936666E00DD3D99 /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
 		E0CCAE492936666E00DD3D99 /* Components.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Components.podspec; sourceTree = "<group>"; };
 		E0CCAE57293668B600DD3D99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E0CCAE58293668B600DD3D99 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		E0CCAE5D29366C4100DD3D99 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
-		E0CCAE5F2936796A00DD3D99 /* Asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Asset.xcassets; sourceTree = "<group>"; };
+		E0CCAE5F2936796A00DD3D99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0CCAE97293689C200DD3D99 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		E0CCAE9929368BCB00DD3D99 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		E0CCAE9A29368BCB00DD3D99 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
@@ -210,6 +221,14 @@
 			path = BulletList;
 			sourceTree = "<group>";
 		};
+		E09F2335296035D8002ECF4A /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				E09F233D29631B6E002ECF4A /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
 		E0CCAE042936622300DD3D99 = {
 			isa = PBXGroup;
 			children = (
@@ -256,7 +275,9 @@
 		E0CCAE272936624500DD3D99 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E0CCAE5F2936796A00DD3D99 /* Asset.xcassets */,
+				E09F2335296035D8002ECF4A /* Localization */,
+				E0CCAE5F2936796A00DD3D99 /* Assets.xcassets */,
+				E09F2336296035FB002ECF4A /* Colors.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -292,8 +313,8 @@
 				E0CCAE9A29368BCB00DD3D99 /* .swiftlint.yml */,
 				E09F232A295F872D002ECF4A /* README.md */,
 				E0CCAE472936666E00DD3D99 /* Gemfile */,
-				E0CCAE482936666E00DD3D99 /* swiftgen.yml */,
 				E0CCAE97293689C200DD3D99 /* LICENSE */,
+				E09F234729632D0E002ECF4A /* swiftgen.yml */,
 				E0CCAE492936666E00DD3D99 /* Components.podspec */,
 				E09F2309295F6163002ECF4A /* Podfile */,
 			);
@@ -331,6 +352,9 @@
 		E0DB7B3E295DF70400F81C61 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				E09F235129632FEB002ECF4A /* L10n.swift */,
+				E09F234C29632D89002ECF4A /* Assets+Generated.swift */,
+				E09F234F29632DFB002ECF4A /* Colors+Generated.swift */,
 				E0DB7B3F295DF72B00F81C61 /* ViewModelType.swift */,
 			);
 			path = Base;
@@ -355,6 +379,7 @@
 			buildPhases = (
 				52A8BC14E1950D7143873278 /* [CP] Check Pods Manifest.lock */,
 				E0CCAE092936622300DD3D99 /* Headers */,
+				E09F233A29631B38002ECF4A /* Swiftgen */,
 				E0CCAE0A2936622300DD3D99 /* Sources */,
 				E0CCAE0B2936622300DD3D99 /* Frameworks */,
 				E0CCAE0C2936622300DD3D99 /* Resources */,
@@ -460,7 +485,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0CCAE602936796A00DD3D99 /* Asset.xcassets in Resources */,
+				E0CCAE602936796A00DD3D99 /* Assets.xcassets in Resources */,
+				E09F234829632D0E002ECF4A /* swiftgen.yml in Resources */,
+				E09F234429632812002ECF4A /* Colors.xcassets in Resources */,
+				E09F233B29631B6E002ECF4A /* Localizable.strings in Resources */,
 				E09F232E295F89A6002ECF4A /* LoadingViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -587,6 +615,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E09F233A29631B38002ECF4A /* Swiftgen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Swiftgen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"/opt/homebrew/bin:$PATH:$HOME/.brew/bin/\"\nif which swiftgen > /dev/null; then\n    echo \"installed swiftgen\"\n    swiftgen\nelse\n    if which brew > /dev/null; then\n        echo \"installed homebrew but not install swiftgen\"\n        brew install swiftgen\n        swiftgen\n    else\n        echo \"warning: Homebrew not found. Please install homebrew and install swiftgen\"\n        echo \"warning: To install swiftgen, follow instructions at: https://github.com/SwiftGen/SwiftGen\"\n    fi\nfi\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -596,9 +642,12 @@
 			files = (
 				E0DB7B38295DF66A00F81C61 /* LoadingNavigator.swift in Sources */,
 				E0CCAE5E29366C4100DD3D99 /* CardView.swift in Sources */,
+				E09F235229632FEB002ECF4A /* L10n.swift in Sources */,
 				E0DB7B3B295DF66A00F81C61 /* LoadingViewModel.swift in Sources */,
 				E0DB7B40295DF72B00F81C61 /* ViewModelType.swift in Sources */,
 				E0DB7B3A295DF66A00F81C61 /* LoadingViewController.swift in Sources */,
+				E09F235029632DFB002ECF4A /* Colors+Generated.swift in Sources */,
+				E09F234E29632D89002ECF4A /* Assets+Generated.swift in Sources */,
 				E09F230E295F61D2002ECF4A /* Observable+Ex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -641,6 +690,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		E09F233D29631B6E002ECF4A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E09F233C29631B6E002ECF4A /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		E0CCAE392936628200DD3D99 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

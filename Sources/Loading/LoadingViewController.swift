@@ -9,6 +9,7 @@ open class LoadingViewController: UIViewController {
     let viewModel: LoadingViewModel
     let loadTrigger = PublishSubject<Void>()
     
+    @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
     public init(viewModel: LoadingViewModel) {

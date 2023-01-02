@@ -1,24 +1,24 @@
 strings:
   inputs: Resources/Localization/en.lproj/Localizable.strings
   outputs:
-    - templatePath: Sources/Config/custom-strings.stencil
+    - templateName: structured-swift5
       output: Sources/Base/L10n.swift
       params:
         publicAccess: public
-        enumName: TCBLanguage
+        enumName: L10n
 
 xcassets:
     - inputs: Resources/Assets.xcassets
       outputs:
-        - templatePath: Sources/Config/custom-config.stencil
-          output: Sources/Base/ImageType.swift
+        - templateName: swift5
+          output: Sources/Base/Assets+Generated.swift
           params:
             publicAccess: public
-            enumName: TCBAsset
+            enumName: Assets
     - inputs: Resources/Colors.xcassets
       outputs:
-        - templatePath: Sources/Config/cusom-config-color.stencil
-          output: Sources/Base/TCBColorTest.swift
+        - templateName: swift5
+          output: Sources/Base/Colors+Generated.swift
           params:
             publicAccess: public
-            enumName: TCBTest
+            enumName: Colors
