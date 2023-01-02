@@ -5,8 +5,8 @@
   Created by Lazyman on 12/31/22.
   
 */
-"common.alert.title" = "Alert";
+"common.alert.title" = "Cảnh báo";
 
-"home.description" = "Description home!";
+"home.description" = "Miêu tả màn hình Home";
 
 "home.title" = "Home";

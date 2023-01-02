@@ -25,6 +25,7 @@
 		E09F234E29632D89002ECF4A /* Assets+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F234C29632D89002ECF4A /* Assets+Generated.swift */; };
 		E09F235029632DFB002ECF4A /* Colors+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F234F29632DFB002ECF4A /* Colors+Generated.swift */; };
 		E09F235229632FEB002ECF4A /* L10n.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F235129632FEB002ECF4A /* L10n.swift */; };
+		E09F235729633646002ECF4A /* BartyCrouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F235629633646002ECF4A /* BartyCrouch.swift */; };
 		E0CCAE172936622400DD3D99 /* Components.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0CCAE0E2936622300DD3D99 /* Components.framework */; };
 		E0CCAE1C2936622400DD3D99 /* ComponentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CCAE1B2936622400DD3D99 /* ComponentsTests.swift */; };
 		E0CCAE2F2936628100DD3D99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CCAE2E2936628100DD3D99 /* AppDelegate.swift */; };
@@ -100,6 +101,8 @@
 		E09F234C29632D89002ECF4A /* Assets+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Assets+Generated.swift"; sourceTree = "<group>"; };
 		E09F234F29632DFB002ECF4A /* Colors+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Colors+Generated.swift"; sourceTree = "<group>"; };
 		E09F235129632FEB002ECF4A /* L10n.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L10n.swift; sourceTree = "<group>"; };
+		E09F235629633646002ECF4A /* BartyCrouch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BartyCrouch.swift; sourceTree = "<group>"; };
+		E09F2358296336C1002ECF4A /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E0CCAE0E2936622300DD3D99 /* Components.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Components.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0CCAE162936622400DD3D99 /* ComponentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComponentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0CCAE1B2936622400DD3D99 /* ComponentsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentsTests.swift; sourceTree = "<group>"; };
@@ -229,6 +232,22 @@
 			path = Localization;
 			sourceTree = "<group>";
 		};
+		E09F23542963360E002ECF4A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E09F235529633646002ECF4A /* Localization */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E09F235529633646002ECF4A /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				E09F235629633646002ECF4A /* BartyCrouch.swift */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
 		E0CCAE042936622300DD3D99 = {
 			isa = PBXGroup;
 			children = (
@@ -264,6 +283,7 @@
 		E0CCAE262936624000DD3D99 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				E09F23542963360E002ECF4A /* Utils */,
 				E09F230B295F6192002ECF4A /* Extension */,
 				E0DB7B3E295DF70400F81C61 /* Base */,
 				E0DB7B32295DF65D00F81C61 /* Loading */,
@@ -379,6 +399,7 @@
 			buildPhases = (
 				52A8BC14E1950D7143873278 /* [CP] Check Pods Manifest.lock */,
 				E0CCAE092936622300DD3D99 /* Headers */,
+				E09F2353296335E9002ECF4A /* BartyCrouch */,
 				E09F233A29631B38002ECF4A /* Swiftgen */,
 				E0CCAE0A2936622300DD3D99 /* Sources */,
 				E0CCAE0B2936622300DD3D99 /* Frameworks */,
@@ -465,6 +486,7 @@
 			knownRegions = (
 				en,
 				Base,
+				vi,
 			);
 			mainGroup = E0CCAE042936622300DD3D99;
 			packageReferences = (
@@ -633,6 +655,24 @@
 			shellPath = /bin/sh;
 			shellScript = "export PATH=\"/opt/homebrew/bin:$PATH:$HOME/.brew/bin/\"\nif which swiftgen > /dev/null; then\n    echo \"installed swiftgen\"\n    swiftgen\nelse\n    if which brew > /dev/null; then\n        echo \"installed homebrew but not install swiftgen\"\n        brew install swiftgen\n        swiftgen\n    else\n        echo \"warning: Homebrew not found. Please install homebrew and install swiftgen\"\n        echo \"warning: To install swiftgen, follow instructions at: https://github.com/SwiftGen/SwiftGen\"\n    fi\nfi\n";
 		};
+		E09F2353296335E9002ECF4A /* BartyCrouch */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = BartyCrouch;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"/opt/homebrew/bin:$PATH:$HOME/.brew/bin/\"\nif which bartycrouch > /dev/null; then\n    bartycrouch update -x\n    bartycrouch lint -x\nelse\n    if which brew > /dev/null; then\n        if brew install bartycrouch; then \n            bartycrouch update -x\n            bartycrouch lint -x\n        else\n            echo \"warning: Homebrew not found. Please install homebrew and install bartycrouch\"\n        fi\n    else\n        echo \"warning: To install swiftgen, follow instructions at: https://github.com/SwiftGen/SwiftGen\"\n    fi\nfi\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -646,6 +686,7 @@
 				E0DB7B3B295DF66A00F81C61 /* LoadingViewModel.swift in Sources */,
 				E0DB7B40295DF72B00F81C61 /* ViewModelType.swift in Sources */,
 				E0DB7B3A295DF66A00F81C61 /* LoadingViewController.swift in Sources */,
+				E09F235729633646002ECF4A /* BartyCrouch.swift in Sources */,
 				E09F235029632DFB002ECF4A /* Colors+Generated.swift in Sources */,
 				E09F234E29632D89002ECF4A /* Assets+Generated.swift in Sources */,
 				E09F230E295F61D2002ECF4A /* Observable+Ex.swift in Sources */,
@@ -694,6 +735,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				E09F233C29631B6E002ECF4A /* en */,
+				E09F2358296336C1002ECF4A /* vi */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -713,6 +755,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -776,6 +819,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";

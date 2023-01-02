@@ -20,6 +20,8 @@ public enum L10n {
     }
   }
   public enum Home {
+    /// Description home!
+    public static let description = L10n.tr("Localizable", "home.description", fallback: "Description home!")
     /// Home
     public static let title = L10n.tr("Localizable", "home.title", fallback: "Home")
   }
