@@ -10,7 +10,6 @@
 		605A6376E03BD65D647CD356 /* Pods_Components_ComponentsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 767326B5362D4F23AD9DD8A2 /* Pods_Components_ComponentsTests.framework */; };
 		787B71C8346C027597F65A8D /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 251865A456FE43D673A41CD5 /* Pods_Example.framework */; };
 		A02F84D9AD1037009534C672 /* Pods_Components.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2CB8FAE47A7CBD9F6213052 /* Pods_Components.framework */; };
-		E09F230E295F61D2002ECF4A /* Observable+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F230D295F61D2002ECF4A /* Observable+Ex.swift */; };
 		E09F231C295F830B002ECF4A /* HelloWorldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F231A295F830B002ECF4A /* HelloWorldViewController.swift */; };
 		E09F231D295F830B002ECF4A /* HelloWorldViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E09F231B295F830B002ECF4A /* HelloWorldViewController.xib */; };
 		E09F2325295F84B2002ECF4A /* TestLoadingNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F2320295F84B2002ECF4A /* TestLoadingNavigator.swift */; };
@@ -84,8 +83,7 @@
 		948C95C321167E6D89ABFF73 /* Pods-Components.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Components.release.xcconfig"; path = "Target Support Files/Pods-Components/Pods-Components.release.xcconfig"; sourceTree = "<group>"; };
 		A2CB8FAE47A7CBD9F6213052 /* Pods_Components.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Components.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9C52486E2D0564DC7B70972 /* Pods-Components.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Components.debug.xcconfig"; path = "Target Support Files/Pods-Components/Pods-Components.debug.xcconfig"; sourceTree = "<group>"; };
-		E09F2309295F6163002ECF4A /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = Podfile; sourceTree = "<group>"; };
-		E09F230D295F61D2002ECF4A /* Observable+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observable+Ex.swift"; sourceTree = "<group>"; };
+		E09F2309295F6163002ECF4A /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E09F231A295F830B002ECF4A /* HelloWorldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldViewController.swift; sourceTree = "<group>"; };
 		E09F231B295F830B002ECF4A /* HelloWorldViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HelloWorldViewController.xib; sourceTree = "<group>"; };
 		E09F2320295F84B2002ECF4A /* TestLoadingNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLoadingNavigator.swift; sourceTree = "<group>"; };
@@ -168,22 +166,6 @@
 				0F1C3EE9A76F79018F6C0E36 /* Pods-Example.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		E09F230B295F6192002ECF4A /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				E09F230C295F61A3002ECF4A /* Rx */,
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
-		E09F230C295F61A3002ECF4A /* Rx */ = {
-			isa = PBXGroup;
-			children = (
-				E09F230D295F61D2002ECF4A /* Observable+Ex.swift */,
-			);
-			path = Rx;
 			sourceTree = "<group>";
 		};
 		E09F231E295F8471002ECF4A /* TestLoading */ = {
@@ -284,7 +266,6 @@
 			isa = PBXGroup;
 			children = (
 				E09F23542963360E002ECF4A /* Utils */,
-				E09F230B295F6192002ECF4A /* Extension */,
 				E0DB7B3E295DF70400F81C61 /* Base */,
 				E0DB7B32295DF65D00F81C61 /* Loading */,
 				E0CCAE5C29366C2900DD3D99 /* CardView */,
@@ -689,7 +670,6 @@
 				E09F235729633646002ECF4A /* BartyCrouch.swift in Sources */,
 				E09F235029632DFB002ECF4A /* Colors+Generated.swift in Sources */,
 				E09F234E29632D89002ECF4A /* Assets+Generated.swift in Sources */,
-				E09F230E295F61D2002ECF4A /* Observable+Ex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -883,7 +863,7 @@
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 5NDD3U2V39;
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 0.5.1;
+				DYLIB_CURRENT_VERSION = 0.5.2;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -894,7 +874,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.5.1;
+				MARKETING_VERSION = 0.5.2;
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.lazyman.Components;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -918,7 +898,7 @@
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 5NDD3U2V39;
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 0.5.1;
+				DYLIB_CURRENT_VERSION = 0.5.2;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -929,7 +909,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.5.1;
+				MARKETING_VERSION = 0.5.2;
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.lazyman.Components;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;

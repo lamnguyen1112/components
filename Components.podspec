@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'Components'
-  s.version = '0.5.1'
+  s.version = '0.5.2'
   s.summary = 'Components'
   s.homepage = 'https://github.com/lamnguyen1112/components.git'
   s.authors = { 'Lam Nguyen' => 'lamnguyen1112@gmail.com' }
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 #  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   
-  s.dependency 'CoreExtension', '0.0.2'
+  s.dependency 'CoreExtension', '0.0.3'
   s.dependency 'SnapKit', '5.6.0'
   s.dependency 'RxSwift', '6.5.0'
   s.dependency 'RxCocoa', '6.5.0'
