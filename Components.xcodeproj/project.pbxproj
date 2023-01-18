@@ -44,6 +44,12 @@
 		E0DB7B3A295DF66A00F81C61 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DB7B35295DF66A00F81C61 /* LoadingViewController.swift */; };
 		E0DB7B3B295DF66A00F81C61 /* LoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DB7B36295DF66A00F81C61 /* LoadingViewModel.swift */; };
 		E0DB7B40295DF72B00F81C61 /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DB7B3F295DF72B00F81C61 /* ViewModelType.swift */; };
+		E0E0F230297858570004B9CC /* SkeletonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E0F22E297858570004B9CC /* SkeletonViewController.swift */; };
+		E0E0F231297858570004B9CC /* SkeletonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0E0F22F297858570004B9CC /* SkeletonViewController.xib */; };
+		E0E0F2352978639A0004B9CC /* SkeletonListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E0F2332978639A0004B9CC /* SkeletonListViewController.swift */; };
+		E0E0F2362978639A0004B9CC /* SkeletonListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0E0F2342978639A0004B9CC /* SkeletonListViewController.xib */; };
+		E0E0F239297864D60004B9CC /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E0F237297864D60004B9CC /* ItemCell.swift */; };
+		E0E0F23A297864D60004B9CC /* ItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0E0F238297864D60004B9CC /* ItemCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,6 +137,12 @@
 		E0DB7B35295DF66A00F81C61 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
 		E0DB7B36295DF66A00F81C61 /* LoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewModel.swift; sourceTree = "<group>"; };
 		E0DB7B3F295DF72B00F81C61 /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
+		E0E0F22E297858570004B9CC /* SkeletonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonViewController.swift; sourceTree = "<group>"; };
+		E0E0F22F297858570004B9CC /* SkeletonViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SkeletonViewController.xib; sourceTree = "<group>"; };
+		E0E0F2332978639A0004B9CC /* SkeletonListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonListViewController.swift; sourceTree = "<group>"; };
+		E0E0F2342978639A0004B9CC /* SkeletonListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SkeletonListViewController.xib; sourceTree = "<group>"; };
+		E0E0F237297864D60004B9CC /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		E0E0F238297864D60004B9CC /* ItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +232,8 @@
 		E09F231F295F847C002ECF4A /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				E0E0F232297863840004B9CC /* SkeletonList */,
+				E0E0F22D297858330004B9CC /* Skeleton */,
 				E07AACA6296C900E006E7D27 /* WebBrowser */,
 				E09F2330295F920B002ECF4A /* BulletList */,
 				E09F231E295F8471002ECF4A /* TestLoading */,
@@ -405,6 +419,26 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
+		E0E0F22D297858330004B9CC /* Skeleton */ = {
+			isa = PBXGroup;
+			children = (
+				E0E0F22E297858570004B9CC /* SkeletonViewController.swift */,
+				E0E0F22F297858570004B9CC /* SkeletonViewController.xib */,
+			);
+			path = Skeleton;
+			sourceTree = "<group>";
+		};
+		E0E0F232297863840004B9CC /* SkeletonList */ = {
+			isa = PBXGroup;
+			children = (
+				E0E0F237297864D60004B9CC /* ItemCell.swift */,
+				E0E0F238297864D60004B9CC /* ItemCell.xib */,
+				E0E0F2332978639A0004B9CC /* SkeletonListViewController.swift */,
+				E0E0F2342978639A0004B9CC /* SkeletonListViewController.xib */,
+			);
+			path = SkeletonList;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -553,11 +587,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E09F231D295F830B002ECF4A /* HelloWorldViewController.xib in Resources */,
+				E0E0F231297858570004B9CC /* SkeletonViewController.xib in Resources */,
 				E0CCAE3B2936628200DD3D99 /* LaunchScreen.storyboard in Resources */,
 				E07AACA8296C95DE006E7D27 /* examplePDF.pdf in Resources */,
 				E0CCAE5A293668B600DD3D99 /* ViewController.xib in Resources */,
 				E0CCAE382936628200DD3D99 /* Assets.xcassets in Resources */,
 				E09F2334295F9239002ECF4A /* BulletViewController.xib in Resources */,
+				E0E0F2362978639A0004B9CC /* SkeletonListViewController.xib in Resources */,
+				E0E0F23A297864D60004B9CC /* ItemCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -736,8 +773,11 @@
 				E09F2333295F9239002ECF4A /* BulletViewController.swift in Sources */,
 				E0CCAE59293668B600DD3D99 /* ViewController.swift in Sources */,
 				E0CCAE2F2936628100DD3D99 /* AppDelegate.swift in Sources */,
+				E0E0F230297858570004B9CC /* SkeletonViewController.swift in Sources */,
+				E0E0F239297864D60004B9CC /* ItemCell.swift in Sources */,
 				E09F2327295F84B2002ECF4A /* TestLoadingViewController.swift in Sources */,
 				E09F2325295F84B2002ECF4A /* TestLoadingNavigator.swift in Sources */,
+				E0E0F2352978639A0004B9CC /* SkeletonListViewController.swift in Sources */,
 				E09F2328295F84B2002ECF4A /* TestLoadingViewModel.swift in Sources */,
 				E09F231C295F830B002ECF4A /* HelloWorldViewController.swift in Sources */,
 			);

@@ -22,7 +22,8 @@ class ViewController: UIViewController {
     
     @IBAction func showLoading(_ sender: Any) {
 //        testLoading()
-        showWebBrowser()
+//        showWebBrowser()
+        showSkeletonList()
     }
     
     func testLoading() {
@@ -40,6 +41,16 @@ class ViewController: UIViewController {
 //        loadFilePdf()
 //            .bind(to: browserViewController.resource)
 //            .disposed(by: disposedBag)
+    }
+    
+    func showSkeletonView() {
+        let skeletonVC = SkeletonViewController.instanceFromNibClass()
+        navigationController?.pushViewController(skeletonVC, animated: true)
+    }
+    
+    func showSkeletonList() {
+        let skeletonListVC = SkeletonListViewController.instanceFromNibClass()
+        navigationController?.pushViewController(skeletonListVC, animated: true)
     }
     
     typealias WebResource = WebBrowserViewController.WebResource
