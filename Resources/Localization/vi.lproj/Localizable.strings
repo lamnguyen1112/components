@@ -1,11 +1,12 @@
-/* 
-  Localizable.strings
-  Components
+"common.alert.cancel" = "Huỷ";
 
-  Created by Lazyman on 12/31/22.
-  
-*/
+"common.alert.ok" = "Đồng ý";
+
 "common.alert.title" = "Cảnh báo";
+
+"common.error.notFoundPath" = "Không thấy đường dẫn";
+
+"common.error.writeFileError" = "Lỗi ghi file";
 
 "home.description" = "Miêu tả màn hình Home";
 

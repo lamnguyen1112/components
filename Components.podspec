@@ -27,5 +27,7 @@ Pod::Spec.new do |s|
   s.dependency 'SkeletonView'
   s.dependency 'Nantes'
   s.dependency 'AttributedStringBuilder'
+  s.dependency 'PanModal'
+  s.dependency 'SwiftEntryKit'
 
 end

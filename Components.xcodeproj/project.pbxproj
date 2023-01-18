@@ -10,6 +10,10 @@
 		605A6376E03BD65D647CD356 /* Pods_Components_ComponentsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 767326B5362D4F23AD9DD8A2 /* Pods_Components_ComponentsTests.framework */; };
 		787B71C8346C027597F65A8D /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 251865A456FE43D673A41CD5 /* Pods_Example.framework */; };
 		A02F84D9AD1037009534C672 /* Pods_Components.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2CB8FAE47A7CBD9F6213052 /* Pods_Components.framework */; };
+		E07AAC9B296C834D006E7D27 /* WebBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07AAC9A296C834D006E7D27 /* WebBrowserViewController.swift */; };
+		E07AACA1296C8B44006E7D27 /* SFAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07AACA0296C8B44006E7D27 /* SFAsset.swift */; };
+		E07AACA3296C8ECC006E7D27 /* WebBrowserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E07AACA2296C8ECC006E7D27 /* WebBrowserViewController.xib */; };
+		E07AACA8296C95DE006E7D27 /* examplePDF.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E07AACA7296C95DE006E7D27 /* examplePDF.pdf */; };
 		E09F231C295F830B002ECF4A /* HelloWorldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F231A295F830B002ECF4A /* HelloWorldViewController.swift */; };
 		E09F231D295F830B002ECF4A /* HelloWorldViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E09F231B295F830B002ECF4A /* HelloWorldViewController.xib */; };
 		E09F2325295F84B2002ECF4A /* TestLoadingNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F2320295F84B2002ECF4A /* TestLoadingNavigator.swift */; };
@@ -83,6 +87,10 @@
 		948C95C321167E6D89ABFF73 /* Pods-Components.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Components.release.xcconfig"; path = "Target Support Files/Pods-Components/Pods-Components.release.xcconfig"; sourceTree = "<group>"; };
 		A2CB8FAE47A7CBD9F6213052 /* Pods_Components.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Components.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9C52486E2D0564DC7B70972 /* Pods-Components.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Components.debug.xcconfig"; path = "Target Support Files/Pods-Components/Pods-Components.debug.xcconfig"; sourceTree = "<group>"; };
+		E07AAC9A296C834D006E7D27 /* WebBrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebBrowserViewController.swift; sourceTree = "<group>"; };
+		E07AACA0296C8B44006E7D27 /* SFAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFAsset.swift; sourceTree = "<group>"; };
+		E07AACA2296C8ECC006E7D27 /* WebBrowserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebBrowserViewController.xib; sourceTree = "<group>"; };
+		E07AACA7296C95DE006E7D27 /* examplePDF.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = examplePDF.pdf; sourceTree = "<group>"; };
 		E09F2309295F6163002ECF4A /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E09F231A295F830B002ECF4A /* HelloWorldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldViewController.swift; sourceTree = "<group>"; };
 		E09F231B295F830B002ECF4A /* HelloWorldViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HelloWorldViewController.xib; sourceTree = "<group>"; };
@@ -168,6 +176,37 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		E07AAC91296C8172006E7D27 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E07AAC97296C81CD006E7D27 /* WebBrowser */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E07AAC96296C819A006E7D27 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				E07AACA2296C8ECC006E7D27 /* WebBrowserViewController.xib */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		E07AAC97296C81CD006E7D27 /* WebBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				E07AAC9A296C834D006E7D27 /* WebBrowserViewController.swift */,
+			);
+			path = WebBrowser;
+			sourceTree = "<group>";
+		};
+		E07AACA6296C900E006E7D27 /* WebBrowser */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WebBrowser;
+			sourceTree = "<group>";
+		};
 		E09F231E295F8471002ECF4A /* TestLoading */ = {
 			isa = PBXGroup;
 			children = (
@@ -181,6 +220,7 @@
 		E09F231F295F847C002ECF4A /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				E07AACA6296C900E006E7D27 /* WebBrowser */,
 				E09F2330295F920B002ECF4A /* BulletList */,
 				E09F231E295F8471002ECF4A /* TestLoading */,
 				E09F232F295F8D5E002ECF4A /* HelloWorld */,
@@ -265,6 +305,7 @@
 		E0CCAE262936624000DD3D99 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				E07AAC91296C8172006E7D27 /* Components */,
 				E09F23542963360E002ECF4A /* Utils */,
 				E0DB7B3E295DF70400F81C61 /* Base */,
 				E0DB7B32295DF65D00F81C61 /* Loading */,
@@ -276,6 +317,7 @@
 		E0CCAE272936624500DD3D99 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E07AAC96296C819A006E7D27 /* Xibs */,
 				E09F2335296035D8002ECF4A /* Localization */,
 				E0CCAE5F2936796A00DD3D99 /* Assets.xcassets */,
 				E09F2336296035FB002ECF4A /* Colors.xcassets */,
@@ -325,6 +367,7 @@
 		E0CCAE5B29366B2E00DD3D99 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E07AACA7296C95DE006E7D27 /* examplePDF.pdf */,
 				E0CCAE372936628200DD3D99 /* Assets.xcassets */,
 				E0CCAE392936628200DD3D99 /* LaunchScreen.storyboard */,
 			);
@@ -354,6 +397,7 @@
 			isa = PBXGroup;
 			children = (
 				E09F235129632FEB002ECF4A /* L10n.swift */,
+				E07AACA0296C8B44006E7D27 /* SFAsset.swift */,
 				E09F234C29632D89002ECF4A /* Assets+Generated.swift */,
 				E09F234F29632DFB002ECF4A /* Colors+Generated.swift */,
 				E0DB7B3F295DF72B00F81C61 /* ViewModelType.swift */,
@@ -491,6 +535,7 @@
 				E0CCAE602936796A00DD3D99 /* Assets.xcassets in Resources */,
 				E09F234829632D0E002ECF4A /* swiftgen.yml in Resources */,
 				E09F234429632812002ECF4A /* Colors.xcassets in Resources */,
+				E07AACA3296C8ECC006E7D27 /* WebBrowserViewController.xib in Resources */,
 				E09F233B29631B6E002ECF4A /* Localizable.strings in Resources */,
 				E09F232E295F89A6002ECF4A /* LoadingViewController.xib in Resources */,
 			);
@@ -509,6 +554,7 @@
 			files = (
 				E09F231D295F830B002ECF4A /* HelloWorldViewController.xib in Resources */,
 				E0CCAE3B2936628200DD3D99 /* LaunchScreen.storyboard in Resources */,
+				E07AACA8296C95DE006E7D27 /* examplePDF.pdf in Resources */,
 				E0CCAE5A293668B600DD3D99 /* ViewController.xib in Resources */,
 				E0CCAE382936628200DD3D99 /* Assets.xcassets in Resources */,
 				E09F2334295F9239002ECF4A /* BulletViewController.xib in Resources */,
@@ -661,8 +707,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E07AACA1296C8B44006E7D27 /* SFAsset.swift in Sources */,
 				E0DB7B38295DF66A00F81C61 /* LoadingNavigator.swift in Sources */,
 				E0CCAE5E29366C4100DD3D99 /* CardView.swift in Sources */,
+				E07AAC9B296C834D006E7D27 /* WebBrowserViewController.swift in Sources */,
 				E09F235229632FEB002ECF4A /* L10n.swift in Sources */,
 				E0DB7B3B295DF66A00F81C61 /* LoadingViewModel.swift in Sources */,
 				E0DB7B40295DF72B00F81C61 /* ViewModelType.swift in Sources */,
@@ -974,6 +1022,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1003,6 +1052,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

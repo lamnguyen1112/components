@@ -12,11 +12,18 @@ import Foundation
 public enum L10n {
   public enum Common {
     public enum Alert {
-      /// Localizable.strings
-      ///   Components
-      /// 
-      ///   Created by Lazyman on 12/31/22.
-      public static let title = L10n.tr("Localizable", "common.alert.title", fallback: "alert")
+      /// Cancel
+      public static let cancel = L10n.tr("Localizable", "common.alert.cancel", fallback: "Cancel")
+      /// OK
+      public static let ok = L10n.tr("Localizable", "common.alert.ok", fallback: "OK")
+      /// Alert
+      public static let title = L10n.tr("Localizable", "common.alert.title", fallback: "Alert")
+    }
+    public enum Error {
+      /// Not found path
+      public static let notFoundPath = L10n.tr("Localizable", "common.error.notFoundPath", fallback: "Not found path")
+      /// Not found path
+      public static let writeFileError = L10n.tr("Localizable", "common.error.writeFileError", fallback: "Not found path")
     }
   }
   public enum Home {

@@ -7,8 +7,12 @@
 
 import UIKit
 import Components
+import CoreExtension
+import RxSwift
 
 class ViewController: UIViewController {
+    let disposedBag = DisposeBag()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -17,7 +21,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func showLoading(_ sender: Any) {
-        testLoading()
+//        testLoading()
+        showWebBrowser()
     }
     
     func testLoading() {
@@ -26,5 +31,36 @@ class ViewController: UIViewController {
         let viewController = TestLoadingViewController(viewModel: viewModel)
 //
         navigationController?.pushViewController(viewController, animated: true)
+    }
+    
+    func showWebBrowser() {
+        let browserViewController = WebBrowserViewController(options: WebBrowserOptions(resource: .urlString(urlString: "https://www.google.com.vn")))
+        navigationController?.presentPanModal(browserViewController)
+
+//        loadFilePdf()
+//            .bind(to: browserViewController.resource)
+//            .disposed(by: disposedBag)
+    }
+    
+    typealias WebResource = WebBrowserViewController.WebResource
+    typealias WebBrowerError = WebBrowserViewController.WebBrowserError
+    
+    func loadFilePdf() -> Observable<WebResource> {
+        return Observable.create { observer in
+            let url = Bundle.main.url(forResource: "examplePDF", withExtension: "pdf")
+            print(url!)
+            do {
+                let data = try Data(contentsOf: url!)
+                delay(seconds: 3) {
+                    observer.onNext(WebResource.pdfData(data: data, fileName: "examplePDF"))
+                    observer.onCompleted()
+                }
+            } catch {
+                print("Unable to load data: \(error)")
+                observer.onError(WebBrowerError.pathNotFound)
+            }
+            
+            return Disposables.create()
+        }
     }
 }

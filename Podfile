@@ -14,6 +14,8 @@ target 'Components' do
   pod 'SkeletonView'
   pod 'Nantes'
   pod 'AttributedStringBuilder'
+  pod 'PanModal'
+  pod 'SwiftEntryKit', '2.0.0'
 
   target 'ComponentsTests' do
     # Pods for testing

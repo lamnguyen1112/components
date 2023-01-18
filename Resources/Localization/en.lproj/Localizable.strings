@@ -1,11 +1,12 @@
-/* 
-  Localizable.strings
-  Components
+"common.alert.cancel" = "Cancel";
 
-  Created by Lazyman on 12/31/22.
-  
-*/
+"common.alert.ok" = "OK";
+
 "common.alert.title" = "Alert";
+
+"common.error.notFoundPath" = "Not found path";
+
+"common.error.writeFileError" = "Not found path";
 
 "home.description" = "Description home!";
 
