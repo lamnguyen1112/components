@@ -10,6 +10,8 @@
 		605A6376E03BD65D647CD356 /* Pods_Components_ComponentsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 767326B5362D4F23AD9DD8A2 /* Pods_Components_ComponentsTests.framework */; };
 		787B71C8346C027597F65A8D /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 251865A456FE43D673A41CD5 /* Pods_Example.framework */; };
 		A02F84D9AD1037009534C672 /* Pods_Components.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2CB8FAE47A7CBD9F6213052 /* Pods_Components.framework */; };
+		E0120AB2299FE84F00328FA7 /* BottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0120AB0299FE84F00328FA7 /* BottomSheetViewController.swift */; };
+		E0120AB3299FE84F00328FA7 /* BottomSheetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0120AB1299FE84F00328FA7 /* BottomSheetViewController.xib */; };
 		E07AAC9B296C834D006E7D27 /* WebBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07AAC9A296C834D006E7D27 /* WebBrowserViewController.swift */; };
 		E07AACA1296C8B44006E7D27 /* SFAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07AACA0296C8B44006E7D27 /* SFAsset.swift */; };
 		E07AACA3296C8ECC006E7D27 /* WebBrowserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E07AACA2296C8ECC006E7D27 /* WebBrowserViewController.xib */; };
@@ -93,6 +95,8 @@
 		948C95C321167E6D89ABFF73 /* Pods-Components.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Components.release.xcconfig"; path = "Target Support Files/Pods-Components/Pods-Components.release.xcconfig"; sourceTree = "<group>"; };
 		A2CB8FAE47A7CBD9F6213052 /* Pods_Components.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Components.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9C52486E2D0564DC7B70972 /* Pods-Components.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Components.debug.xcconfig"; path = "Target Support Files/Pods-Components/Pods-Components.debug.xcconfig"; sourceTree = "<group>"; };
+		E0120AB0299FE84F00328FA7 /* BottomSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetViewController.swift; sourceTree = "<group>"; };
+		E0120AB1299FE84F00328FA7 /* BottomSheetViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BottomSheetViewController.xib; sourceTree = "<group>"; };
 		E07AAC9A296C834D006E7D27 /* WebBrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebBrowserViewController.swift; sourceTree = "<group>"; };
 		E07AACA0296C8B44006E7D27 /* SFAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFAsset.swift; sourceTree = "<group>"; };
 		E07AACA2296C8ECC006E7D27 /* WebBrowserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebBrowserViewController.xib; sourceTree = "<group>"; };
@@ -188,9 +192,19 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		E0120AAB299FE7D000328FA7 /* BottomSheet */ = {
+			isa = PBXGroup;
+			children = (
+				E0120AB0299FE84F00328FA7 /* BottomSheetViewController.swift */,
+				E0120AB1299FE84F00328FA7 /* BottomSheetViewController.xib */,
+			);
+			path = BottomSheet;
+			sourceTree = "<group>";
+		};
 		E07AAC91296C8172006E7D27 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				E0120AAB299FE7D000328FA7 /* BottomSheet */,
 				E07AAC97296C81CD006E7D27 /* WebBrowser */,
 			);
 			path = Components;
@@ -212,13 +226,6 @@
 			path = WebBrowser;
 			sourceTree = "<group>";
 		};
-		E07AACA6296C900E006E7D27 /* WebBrowser */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = WebBrowser;
-			sourceTree = "<group>";
-		};
 		E09F231E295F8471002ECF4A /* TestLoading */ = {
 			isa = PBXGroup;
 			children = (
@@ -234,7 +241,6 @@
 			children = (
 				E0E0F232297863840004B9CC /* SkeletonList */,
 				E0E0F22D297858330004B9CC /* Skeleton */,
-				E07AACA6296C900E006E7D27 /* WebBrowser */,
 				E09F2330295F920B002ECF4A /* BulletList */,
 				E09F231E295F8471002ECF4A /* TestLoading */,
 				E09F232F295F8D5E002ECF4A /* HelloWorld */,
@@ -567,6 +573,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0CCAE602936796A00DD3D99 /* Assets.xcassets in Resources */,
+				E0120AB3299FE84F00328FA7 /* BottomSheetViewController.xib in Resources */,
 				E09F234829632D0E002ECF4A /* swiftgen.yml in Resources */,
 				E09F234429632812002ECF4A /* Colors.xcassets in Resources */,
 				E07AACA3296C8ECC006E7D27 /* WebBrowserViewController.xib in Resources */,
@@ -751,6 +758,7 @@
 				E09F235229632FEB002ECF4A /* L10n.swift in Sources */,
 				E0DB7B3B295DF66A00F81C61 /* LoadingViewModel.swift in Sources */,
 				E0DB7B40295DF72B00F81C61 /* ViewModelType.swift in Sources */,
+				E0120AB2299FE84F00328FA7 /* BottomSheetViewController.swift in Sources */,
 				E0DB7B3A295DF66A00F81C61 /* LoadingViewController.swift in Sources */,
 				E09F235729633646002ECF4A /* BartyCrouch.swift in Sources */,
 				E09F235029632DFB002ECF4A /* Colors+Generated.swift in Sources */,

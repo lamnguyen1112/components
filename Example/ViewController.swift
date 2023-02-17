@@ -8,6 +8,7 @@
 import UIKit
 import Components
 import CoreExtension
+import PanModal
 import RxSwift
 
 class ViewController: UIViewController {
@@ -23,7 +24,8 @@ class ViewController: UIViewController {
     @IBAction func showLoading(_ sender: Any) {
 //        testLoading()
 //        showWebBrowser()
-        showSkeletonList()
+//        showSkeletonList()
+        showBottomSheet()
     }
     
     func testLoading() {
@@ -41,6 +43,12 @@ class ViewController: UIViewController {
 //        loadFilePdf()
 //            .bind(to: browserViewController.resource)
 //            .disposed(by: disposedBag)
+    }
+    
+    func showBottomSheet() {
+        let bottomSheetViewController = BottomSheetViewController()
+        
+        presentPanModal(bottomSheetViewController)
     }
     
     func showSkeletonView() {

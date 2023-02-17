@@ -16,6 +16,7 @@ target 'Components' do
   pod 'AttributedStringBuilder'
   pod 'PanModal'
   pod 'SwiftEntryKit', '2.0.0'
+  pod 'Nuke', '~> 10.7'
 
   target 'ComponentsTests' do
     # Pods for testing
