@@ -12,6 +12,7 @@
 		A02F84D9AD1037009534C672 /* Pods_Components.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2CB8FAE47A7CBD9F6213052 /* Pods_Components.framework */; };
 		E0120AB2299FE84F00328FA7 /* BottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0120AB0299FE84F00328FA7 /* BottomSheetViewController.swift */; };
 		E0120AB3299FE84F00328FA7 /* BottomSheetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0120AB1299FE84F00328FA7 /* BottomSheetViewController.xib */; };
+		E0120AB6299FEE3C00328FA7 /* Nuke+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0120AB5299FEE3C00328FA7 /* Nuke+Utility.swift */; };
 		E07AAC9B296C834D006E7D27 /* WebBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07AAC9A296C834D006E7D27 /* WebBrowserViewController.swift */; };
 		E07AACA1296C8B44006E7D27 /* SFAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07AACA0296C8B44006E7D27 /* SFAsset.swift */; };
 		E07AACA3296C8ECC006E7D27 /* WebBrowserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E07AACA2296C8ECC006E7D27 /* WebBrowserViewController.xib */; };
@@ -97,6 +98,7 @@
 		C9C52486E2D0564DC7B70972 /* Pods-Components.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Components.debug.xcconfig"; path = "Target Support Files/Pods-Components/Pods-Components.debug.xcconfig"; sourceTree = "<group>"; };
 		E0120AB0299FE84F00328FA7 /* BottomSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetViewController.swift; sourceTree = "<group>"; };
 		E0120AB1299FE84F00328FA7 /* BottomSheetViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BottomSheetViewController.xib; sourceTree = "<group>"; };
+		E0120AB5299FEE3C00328FA7 /* Nuke+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Nuke+Utility.swift"; sourceTree = "<group>"; };
 		E07AAC9A296C834D006E7D27 /* WebBrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebBrowserViewController.swift; sourceTree = "<group>"; };
 		E07AACA0296C8B44006E7D27 /* SFAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFAsset.swift; sourceTree = "<group>"; };
 		E07AACA2296C8ECC006E7D27 /* WebBrowserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebBrowserViewController.xib; sourceTree = "<group>"; };
@@ -201,9 +203,19 @@
 			path = BottomSheet;
 			sourceTree = "<group>";
 		};
+		E0253CE829A2172400D58267 /* ToastView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ToastView;
+			sourceTree = "<group>";
+		};
 		E07AAC91296C8172006E7D27 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				E0CCAE5C29366C2900DD3D99 /* CardView */,
+				E0DB7B32295DF65D00F81C61 /* Loading */,
+				E0253CE829A2172400D58267 /* ToastView */,
 				E0120AAB299FE7D000328FA7 /* BottomSheet */,
 				E07AAC97296C81CD006E7D27 /* WebBrowser */,
 			);
@@ -278,6 +290,7 @@
 			isa = PBXGroup;
 			children = (
 				E09F235529633646002ECF4A /* Localization */,
+				E0120AB5299FEE3C00328FA7 /* Nuke+Utility.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -325,11 +338,9 @@
 		E0CCAE262936624000DD3D99 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				E07AAC91296C8172006E7D27 /* Components */,
-				E09F23542963360E002ECF4A /* Utils */,
 				E0DB7B3E295DF70400F81C61 /* Base */,
-				E0DB7B32295DF65D00F81C61 /* Loading */,
-				E0CCAE5C29366C2900DD3D99 /* CardView */,
+				E09F23542963360E002ECF4A /* Utils */,
+				E07AAC91296C8172006E7D27 /* Components */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -762,6 +773,7 @@
 				E0DB7B3A295DF66A00F81C61 /* LoadingViewController.swift in Sources */,
 				E09F235729633646002ECF4A /* BartyCrouch.swift in Sources */,
 				E09F235029632DFB002ECF4A /* Colors+Generated.swift in Sources */,
+				E0120AB6299FEE3C00328FA7 /* Nuke+Utility.swift in Sources */,
 				E09F234E29632D89002ECF4A /* Assets+Generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
