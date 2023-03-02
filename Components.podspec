@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
                    :tag => s.version.to_s }
 
   s.source_files = 'Sources/**/*.{swift}'
-#  s.resource = 'Resources/**/*.*'
+  s.resource = 'Resources/**/*.*'
 
   s.ios.deployment_target = '13.0'
   s.swift_version = '5.0'
@@ -29,5 +29,6 @@ Pod::Spec.new do |s|
   s.dependency 'AttributedStringBuilder'
   s.dependency 'PanModal'
   s.dependency 'SwiftEntryKit'
+  s.dependency 'Nuke'
 
 end

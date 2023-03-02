@@ -10,6 +10,8 @@
 		605A6376E03BD65D647CD356 /* Pods_Components_ComponentsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 767326B5362D4F23AD9DD8A2 /* Pods_Components_ComponentsTests.framework */; };
 		787B71C8346C027597F65A8D /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 251865A456FE43D673A41CD5 /* Pods_Example.framework */; };
 		A02F84D9AD1037009534C672 /* Pods_Components.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2CB8FAE47A7CBD9F6213052 /* Pods_Components.framework */; };
+		E000A7DC29B0DFAF008B5B0E /* LoadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E000A7DB29B0DFAF008B5B0E /* LoadingViewController.xib */; };
+		E000A7DF29B0DFF6008B5B0E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E000A7DE29B0DFF6008B5B0E /* HeaderView.swift */; };
 		E0120AB2299FE84F00328FA7 /* BottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0120AB0299FE84F00328FA7 /* BottomSheetViewController.swift */; };
 		E0120AB3299FE84F00328FA7 /* BottomSheetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0120AB1299FE84F00328FA7 /* BottomSheetViewController.xib */; };
 		E0120AB6299FEE3C00328FA7 /* Nuke+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0120AB5299FEE3C00328FA7 /* Nuke+Utility.swift */; };
@@ -22,7 +24,6 @@
 		E09F2325295F84B2002ECF4A /* TestLoadingNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F2320295F84B2002ECF4A /* TestLoadingNavigator.swift */; };
 		E09F2327295F84B2002ECF4A /* TestLoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F2322295F84B2002ECF4A /* TestLoadingViewController.swift */; };
 		E09F2328295F84B2002ECF4A /* TestLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F2323295F84B2002ECF4A /* TestLoadingViewModel.swift */; };
-		E09F232E295F89A6002ECF4A /* LoadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E09F232D295F89A6002ECF4A /* LoadingViewController.xib */; };
 		E09F2333295F9239002ECF4A /* BulletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F2331295F9239002ECF4A /* BulletViewController.swift */; };
 		E09F2334295F9239002ECF4A /* BulletViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E09F2332295F9239002ECF4A /* BulletViewController.xib */; };
 		E09F233B29631B6E002ECF4A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E09F233D29631B6E002ECF4A /* Localizable.strings */; };
@@ -32,6 +33,9 @@
 		E09F235029632DFB002ECF4A /* Colors+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F234F29632DFB002ECF4A /* Colors+Generated.swift */; };
 		E09F235229632FEB002ECF4A /* L10n.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F235129632FEB002ECF4A /* L10n.swift */; };
 		E09F235729633646002ECF4A /* BartyCrouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F235629633646002ECF4A /* BartyCrouch.swift */; };
+		E0C6ACDF29B0EB8F00D904A4 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0C6ACDE29B0EB8F00D904A4 /* HeaderView.xib */; };
+		E0C6ACE129B0F3A100D904A4 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C6ACE029B0F3A100D904A4 /* ToastView.swift */; };
+		E0C6ACE329B0F3BA00D904A4 /* ToastView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0C6ACE229B0F3BA00D904A4 /* ToastView.xib */; };
 		E0CCAE172936622400DD3D99 /* Components.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0CCAE0E2936622300DD3D99 /* Components.framework */; };
 		E0CCAE1C2936622400DD3D99 /* ComponentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CCAE1B2936622400DD3D99 /* ComponentsTests.swift */; };
 		E0CCAE2F2936628100DD3D99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CCAE2E2936628100DD3D99 /* AppDelegate.swift */; };
@@ -53,6 +57,7 @@
 		E0E0F2362978639A0004B9CC /* SkeletonListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0E0F2342978639A0004B9CC /* SkeletonListViewController.xib */; };
 		E0E0F239297864D60004B9CC /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E0F237297864D60004B9CC /* ItemCell.swift */; };
 		E0E0F23A297864D60004B9CC /* ItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0E0F238297864D60004B9CC /* ItemCell.xib */; };
+		E0EE131529B0DE54007036AB /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EE131429B0DE54007036AB /* BaseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +101,9 @@
 		948C95C321167E6D89ABFF73 /* Pods-Components.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Components.release.xcconfig"; path = "Target Support Files/Pods-Components/Pods-Components.release.xcconfig"; sourceTree = "<group>"; };
 		A2CB8FAE47A7CBD9F6213052 /* Pods_Components.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Components.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9C52486E2D0564DC7B70972 /* Pods-Components.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Components.debug.xcconfig"; path = "Target Support Files/Pods-Components/Pods-Components.debug.xcconfig"; sourceTree = "<group>"; };
+		E000A7DB29B0DFAF008B5B0E /* LoadingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingViewController.xib; sourceTree = "<group>"; };
+		E000A7DE29B0DFF6008B5B0E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		E000A7E029B0E00A008B5B0E /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
 		E0120AB0299FE84F00328FA7 /* BottomSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetViewController.swift; sourceTree = "<group>"; };
 		E0120AB1299FE84F00328FA7 /* BottomSheetViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BottomSheetViewController.xib; sourceTree = "<group>"; };
 		E0120AB5299FEE3C00328FA7 /* Nuke+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Nuke+Utility.swift"; sourceTree = "<group>"; };
@@ -110,7 +118,6 @@
 		E09F2322295F84B2002ECF4A /* TestLoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLoadingViewController.swift; sourceTree = "<group>"; };
 		E09F2323295F84B2002ECF4A /* TestLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLoadingViewModel.swift; sourceTree = "<group>"; };
 		E09F232A295F872D002ECF4A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		E09F232D295F89A6002ECF4A /* LoadingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingViewController.xib; sourceTree = "<group>"; };
 		E09F2331295F9239002ECF4A /* BulletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulletViewController.swift; sourceTree = "<group>"; };
 		E09F2332295F9239002ECF4A /* BulletViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BulletViewController.xib; sourceTree = "<group>"; };
 		E09F2336296035FB002ECF4A /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
@@ -121,6 +128,9 @@
 		E09F235129632FEB002ECF4A /* L10n.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L10n.swift; sourceTree = "<group>"; };
 		E09F235629633646002ECF4A /* BartyCrouch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BartyCrouch.swift; sourceTree = "<group>"; };
 		E09F2358296336C1002ECF4A /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E0C6ACDE29B0EB8F00D904A4 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		E0C6ACE029B0F3A100D904A4 /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		E0C6ACE229B0F3BA00D904A4 /* ToastView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ToastView.xib; sourceTree = "<group>"; };
 		E0CCAE0E2936622300DD3D99 /* Components.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Components.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0CCAE162936622400DD3D99 /* ComponentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComponentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0CCAE1B2936622400DD3D99 /* ComponentsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentsTests.swift; sourceTree = "<group>"; };
@@ -130,7 +140,7 @@
 		E0CCAE3A2936628200DD3D99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0CCAE3C2936628200DD3D99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0CCAE472936666E00DD3D99 /* Gemfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
-		E0CCAE492936666E00DD3D99 /* Components.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Components.podspec; sourceTree = "<group>"; };
+		E0CCAE492936666E00DD3D99 /* Components.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Components.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E0CCAE57293668B600DD3D99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E0CCAE58293668B600DD3D99 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		E0CCAE5D29366C4100DD3D99 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -149,6 +159,7 @@
 		E0E0F2342978639A0004B9CC /* SkeletonListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SkeletonListViewController.xib; sourceTree = "<group>"; };
 		E0E0F237297864D60004B9CC /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		E0E0F238297864D60004B9CC /* ItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemCell.xib; sourceTree = "<group>"; };
+		E0EE131429B0DE54007036AB /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +205,23 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		E000A7DD29B0DFD0008B5B0E /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				E000A7DE29B0DFF6008B5B0E /* HeaderView.swift */,
+			);
+			path = HeaderView;
+			sourceTree = "<group>";
+		};
+		E000A7E229B0E172008B5B0E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E0C6ACDE29B0EB8F00D904A4 /* HeaderView.xib */,
+				E0C6ACE229B0F3BA00D904A4 /* ToastView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		E0120AAB299FE7D000328FA7 /* BottomSheet */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +234,7 @@
 		E0253CE829A2172400D58267 /* ToastView */ = {
 			isa = PBXGroup;
 			children = (
+				E0C6ACE029B0F3A100D904A4 /* ToastView.swift */,
 			);
 			path = ToastView;
 			sourceTree = "<group>";
@@ -213,9 +242,10 @@
 		E07AAC91296C8172006E7D27 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				E000A7DD29B0DFD0008B5B0E /* HeaderView */,
+				E0253CE829A2172400D58267 /* ToastView */,
 				E0CCAE5C29366C2900DD3D99 /* CardView */,
 				E0DB7B32295DF65D00F81C61 /* Loading */,
-				E0253CE829A2172400D58267 /* ToastView */,
 				E0120AAB299FE7D000328FA7 /* BottomSheet */,
 				E07AAC97296C81CD006E7D27 /* WebBrowser */,
 			);
@@ -225,7 +255,9 @@
 		E07AAC96296C819A006E7D27 /* Xibs */ = {
 			isa = PBXGroup;
 			children = (
+				E000A7DB29B0DFAF008B5B0E /* LoadingViewController.xib */,
 				E07AACA2296C8ECC006E7D27 /* WebBrowserViewController.xib */,
+				E000A7E029B0E00A008B5B0E /* HeaderView.xib */,
 			);
 			path = Xibs;
 			sourceTree = "<group>";
@@ -348,6 +380,7 @@
 		E0CCAE272936624500DD3D99 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E000A7E229B0E172008B5B0E /* Views */,
 				E07AAC96296C819A006E7D27 /* Xibs */,
 				E09F2335296035D8002ECF4A /* Localization */,
 				E0CCAE5F2936796A00DD3D99 /* Assets.xcassets */,
@@ -419,7 +452,6 @@
 				E0DB7B33295DF66A00F81C61 /* LoadingNavigator.swift */,
 				E0DB7B36295DF66A00F81C61 /* LoadingViewModel.swift */,
 				E0DB7B35295DF66A00F81C61 /* LoadingViewController.swift */,
-				E09F232D295F89A6002ECF4A /* LoadingViewController.xib */,
 			);
 			path = Loading;
 			sourceTree = "<group>";
@@ -431,6 +463,7 @@
 				E07AACA0296C8B44006E7D27 /* SFAsset.swift */,
 				E09F234C29632D89002ECF4A /* Assets+Generated.swift */,
 				E09F234F29632DFB002ECF4A /* Colors+Generated.swift */,
+				E0EE131429B0DE54007036AB /* BaseView.swift */,
 				E0DB7B3F295DF72B00F81C61 /* ViewModelType.swift */,
 			);
 			path = Base;
@@ -583,13 +616,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E000A7DC29B0DFAF008B5B0E /* LoadingViewController.xib in Resources */,
 				E0CCAE602936796A00DD3D99 /* Assets.xcassets in Resources */,
 				E0120AB3299FE84F00328FA7 /* BottomSheetViewController.xib in Resources */,
+				E0C6ACDF29B0EB8F00D904A4 /* HeaderView.xib in Resources */,
 				E09F234829632D0E002ECF4A /* swiftgen.yml in Resources */,
 				E09F234429632812002ECF4A /* Colors.xcassets in Resources */,
+				E0C6ACE329B0F3BA00D904A4 /* ToastView.xib in Resources */,
 				E07AACA3296C8ECC006E7D27 /* WebBrowserViewController.xib in Resources */,
 				E09F233B29631B6E002ECF4A /* Localizable.strings in Resources */,
-				E09F232E295F89A6002ECF4A /* LoadingViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -762,15 +797,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0C6ACE129B0F3A100D904A4 /* ToastView.swift in Sources */,
 				E07AACA1296C8B44006E7D27 /* SFAsset.swift in Sources */,
 				E0DB7B38295DF66A00F81C61 /* LoadingNavigator.swift in Sources */,
 				E0CCAE5E29366C4100DD3D99 /* CardView.swift in Sources */,
 				E07AAC9B296C834D006E7D27 /* WebBrowserViewController.swift in Sources */,
 				E09F235229632FEB002ECF4A /* L10n.swift in Sources */,
+				E0EE131529B0DE54007036AB /* BaseView.swift in Sources */,
 				E0DB7B3B295DF66A00F81C61 /* LoadingViewModel.swift in Sources */,
 				E0DB7B40295DF72B00F81C61 /* ViewModelType.swift in Sources */,
 				E0120AB2299FE84F00328FA7 /* BottomSheetViewController.swift in Sources */,
 				E0DB7B3A295DF66A00F81C61 /* LoadingViewController.swift in Sources */,
+				E000A7DF29B0DFF6008B5B0E /* HeaderView.swift in Sources */,
 				E09F235729633646002ECF4A /* BartyCrouch.swift in Sources */,
 				E09F235029632DFB002ECF4A /* Colors+Generated.swift in Sources */,
 				E0120AB6299FEE3C00328FA7 /* Nuke+Utility.swift in Sources */,
