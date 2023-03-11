@@ -8,8 +8,8 @@
 import UIKit
 
 public struct SFAsset {
-    static let icClose = UIImage(systemName: "xmark")
-    static let icDownload = UIImage(systemName: "square.and.arrow.down")
-    static let icArrowLeft = UIImage(systemName: "arrow.left")
-    static let icAvatar = UIImage(systemName: "person.fill")
+    public static let icClose = UIImage(systemName: "xmark")
+    public static let icDownload = UIImage(systemName: "square.and.arrow.down")
+    public static let icArrowLeft = UIImage(systemName: "arrow.left")
+    public static let icAvatar = UIImage(systemName: "person.fill")
 }

@@ -27,4 +27,16 @@ class HeaderView: BaseView {
         backgroundColor = .yellow
         imageView.backgroundColor = .lightGray
     }
+    
+    func showSkeleton() {
+        [imageView, titleLabel, descriptionLabel].forEach { view in
+            view?.showAnimatedGradientSkeleton()
+        }
+    }
+    
+    func hideSkeleton() {
+        [imageView, titleLabel, descriptionLabel].forEach { view in
+            view?.hideSkeleton()
+        }
+    }
 }
