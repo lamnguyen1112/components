@@ -209,17 +209,9 @@
 			isa = PBXGroup;
 			children = (
 				E000A7DE29B0DFF6008B5B0E /* HeaderView.swift */,
+				E0C6ACDE29B0EB8F00D904A4 /* HeaderView.xib */,
 			);
 			path = HeaderView;
-			sourceTree = "<group>";
-		};
-		E000A7E229B0E172008B5B0E /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				E0C6ACDE29B0EB8F00D904A4 /* HeaderView.xib */,
-				E0C6ACE229B0F3BA00D904A4 /* ToastView.xib */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		E0120AAB299FE7D000328FA7 /* BottomSheet */ = {
@@ -235,6 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				E0C6ACE029B0F3A100D904A4 /* ToastView.swift */,
+				E0C6ACE229B0F3BA00D904A4 /* ToastView.xib */,
 			);
 			path = ToastView;
 			sourceTree = "<group>";
@@ -252,19 +245,11 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
-		E07AAC96296C819A006E7D27 /* Xibs */ = {
-			isa = PBXGroup;
-			children = (
-				E000A7DB29B0DFAF008B5B0E /* LoadingViewController.xib */,
-				E07AACA2296C8ECC006E7D27 /* WebBrowserViewController.xib */,
-			);
-			path = Xibs;
-			sourceTree = "<group>";
-		};
 		E07AAC97296C81CD006E7D27 /* WebBrowser */ = {
 			isa = PBXGroup;
 			children = (
 				E07AAC9A296C834D006E7D27 /* WebBrowserViewController.swift */,
+				E07AACA2296C8ECC006E7D27 /* WebBrowserViewController.xib */,
 			);
 			path = WebBrowser;
 			sourceTree = "<group>";
@@ -380,8 +365,6 @@
 		E0CCAE272936624500DD3D99 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E000A7E229B0E172008B5B0E /* Views */,
-				E07AAC96296C819A006E7D27 /* Xibs */,
 				E09F2335296035D8002ECF4A /* Localization */,
 				E0CCAE5F2936796A00DD3D99 /* Assets.xcassets */,
 				E09F2336296035FB002ECF4A /* Colors.xcassets */,
@@ -452,6 +435,7 @@
 				E0DB7B33295DF66A00F81C61 /* LoadingNavigator.swift */,
 				E0DB7B36295DF66A00F81C61 /* LoadingViewModel.swift */,
 				E0DB7B35295DF66A00F81C61 /* LoadingViewController.swift */,
+				E000A7DB29B0DFAF008B5B0E /* LoadingViewController.xib */,
 			);
 			path = Loading;
 			sourceTree = "<group>";

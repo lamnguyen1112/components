@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
                    :tag => s.version.to_s }
 
   s.source_files = 'Sources/**/*.{swift}'
-  s.resource = 'Resources/**/*.*'
+  s.resources = ['Resources/**/*.*', 'Sources/**/*.xib']
 
   s.ios.deployment_target = '13.0'
   s.swift_version = '5.0'
