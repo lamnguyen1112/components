@@ -13,7 +13,7 @@ target 'Components' do
   pod 'SnapKit', '5.6.0'
   pod 'SkeletonView'
   pod 'Nantes'
-  pod 'AttributedStringBuilder'
+#  pod 'AttributedStringBuilder'
   pod 'PanModal'
   pod 'SwiftEntryKit', '2.0.0'
   pod 'Nuke', '~> 10.7'

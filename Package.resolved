@@ -1,0 +1,95 @@
+{
+  "pins" : [
+    {
+      "identity" : "action",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/RxSwiftCommunity/Action.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "90259f7462a07e8f26bc8300ea16bcdf73ca7827"
+      }
+    },
+    {
+      "identity" : "core",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/lamnguyen1112/core.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "98a66b0a97aeae6e791ec61733d4e93e138b7499"
+      }
+    },
+    {
+      "identity" : "nantes",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/instacart/Nantes.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "eb99ab160da5c149e222f9a21fad83a30b5e8f35"
+      }
+    },
+    {
+      "identity" : "nuke",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kean/Nuke.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "bf9517841d021d322c90b76eab971352c557e660"
+      }
+    },
+    {
+      "identity" : "panmodal",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/slackhq/PanModal.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "b2f5bd7d169cba564d5c5b7203864f79be3fe826"
+      }
+    },
+    {
+      "identity" : "rxswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ReactiveX/RxSwift.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "95917a57a58734cd7b747361add398906e8b255c"
+      }
+    },
+    {
+      "identity" : "rxswiftext",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/RxSwiftCommunity/RxSwiftExt.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "fd754f9c5e3a9da0f0b2b2f8a2d83a1e4ad9f281"
+      }
+    },
+    {
+      "identity" : "skeletonview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Juanpe/SkeletonView.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "0f5eaf82e82441690d38abfc4118c961f113881c"
+      }
+    },
+    {
+      "identity" : "snapkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SnapKit/SnapKit.git",
+      "state" : {
+        "branch" : "develop",
+        "revision" : "58320fe80522414bf3a7e24c88123581dc586752"
+      }
+    },
+    {
+      "identity" : "swiftentrykit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/huri000/SwiftEntryKit.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "5ad36cccf0c4b9fea32f4e9b17a8e38f07563ef0"
+      }
+    }
+  ],
+  "version" : 2
+}
