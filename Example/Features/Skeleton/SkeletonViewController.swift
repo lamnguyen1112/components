@@ -7,7 +7,7 @@
 
 import UIKit
 import SkeletonView
-import CoreExtension
+import core
 
 class SkeletonViewController: UIViewController {
     @IBOutlet weak var avatarImageView: UIImageView!

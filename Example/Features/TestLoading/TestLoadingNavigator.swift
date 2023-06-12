@@ -1,8 +1,8 @@
 // 
 
 import UIKit
-import Components
-import CoreExtension
+import components
+import core
 
 final class DefaultTestLoadingNavigator: DefaultLoadingNavigator {
 //    override func showError() {

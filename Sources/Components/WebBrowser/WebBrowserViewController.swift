@@ -1,4 +1,4 @@
-import CoreExtension
+import core
 import PanModal
 import RxSwift
 import RxRelay

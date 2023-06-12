@@ -2,7 +2,8 @@
 
 import RxCocoa
 import RxSwift
-import CoreExtension
+import core
+import UIKit
 
 open class LoadingViewController: UIViewController {
     let disposeBag = DisposeBag()

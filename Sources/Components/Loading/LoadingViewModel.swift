@@ -1,6 +1,6 @@
 //
 
-import CoreExtension
+import core
 import RxCocoa
 import RxSwift
 

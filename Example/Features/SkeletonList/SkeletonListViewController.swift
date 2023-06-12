@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import CoreExtension
+import core
 import SkeletonView
 
 class SkeletonListViewController: UIViewController {

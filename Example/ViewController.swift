@@ -6,8 +6,8 @@
 //
 
 import UIKit
-import Components
-import CoreExtension
+import components
+import core
 import PanModal
 import RxSwift
 

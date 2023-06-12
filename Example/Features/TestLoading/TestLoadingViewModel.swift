@@ -1,7 +1,7 @@
 // 
 
-import Components
-import CoreExtension
+import components
+import core
 
 class TestLoadingViewModel: LoadingViewModel {
     override func loadingAPI() {

@@ -8,6 +8,6 @@
 import Nuke
 import UIKit
 
-func loadImage(url: URL, into imageView: UIImageView) {
-    Nuke.loadImage(with: url, into: imageView)
-}
+//func loadImage(url: URL, into imageView: UIImageView) {
+//    Nuke.loadImage(with: url, into: imageView)
+//}

@@ -5,7 +5,7 @@
 //  Created by Lazyman on 11/29/22.
 //
 
-import CoreExtension
+import core
 import UIKit
 
 @main

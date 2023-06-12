@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import Components
+@testable import components
 
 final class ComponentsTests: XCTestCase {
 

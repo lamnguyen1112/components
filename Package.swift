@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "components",
+    defaultLocalization: "en",
     platforms: [.iOS(.v13)],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
@@ -32,7 +33,7 @@ let package = Package(
             name: "components",
             dependencies: ["core", "SnapKit", "RxSwift", "Action", "RxSwiftExt", "SkeletonView", "PanModal", "Nantes", "SwiftEntryKit", "Nuke"],
             path: "Sources",
-            resources: [.copy("Assets")]
+            resources: [.process("Assets")]
         ),
         .testTarget(
             name: "componentsTests",

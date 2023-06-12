@@ -1,5 +1,5 @@
 // 
-import Components
+import components
 import UIKit
 
 class TestLoadingViewController: LoadingViewController {
