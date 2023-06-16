@@ -11,6 +11,8 @@ import Foundation
 // swiftlint:disable nesting type_body_length type_name vertical_whitespace_opening_braces
 public enum L10n {
   public enum Common {
+    /// Test
+    public static let test = L10n.tr("Localizable", "common.test", fallback: "Test")
     public enum Alert {
       /// Cancel
       public static let cancel = L10n.tr("Localizable", "common.alert.cancel", fallback: "Cancel")

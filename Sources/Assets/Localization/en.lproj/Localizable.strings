@@ -8,6 +8,8 @@
 
 "common.error.writeFileError" = "Not found path";
 
+"common.test" = "Test";
+
 "home.description" = "Description home!";
 
 "home.title" = "Home";

@@ -3,27 +3,27 @@ tasks = ["code", "transform", "normalize", "lint"]
 
 [update.code]
 codePaths = ["Sources"]
-localizablePaths = ["Resources"]
+localizablePaths = ["Sources/Assets"]
 defaultToKeys = false
 additive = true
 unstripped = false
 
 [update.transform]
 codePaths = ["Sources"]
-localizablePaths = ["Resources"]
+localizablePaths = ["Sources/Assets"]
 transformer = "swiftgenStructured"
 supportedLanguageEnumPath = "Sources/Utils/Localization"
 typeName = "BartyCrouch"
 translateMethodName = "translate"
 
 [update.normalize]
-paths = ["Resources"]
+paths = ["Sources/Assets"]
 sourceLocale = "en"
 harmonizeWithSource = true
 sortByKeys = true
 
 [lint]
-paths = ["Resources"]
+paths = ["Sources/Assets"]
 duplicateKeys = true
 emptyValues = true
 

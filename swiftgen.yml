@@ -1,5 +1,5 @@
 strings:
-  inputs: Resources/Localization/en.lproj/Localizable.strings
+  inputs: Sources/Assets/Localization/en.lproj/Localizable.strings
   outputs:
     - templateName: structured-swift5
       output: Sources/Base/L10n.swift
@@ -8,14 +8,14 @@ strings:
         enumName: L10n
 
 xcassets:
-    - inputs: Resources/Assets.xcassets
+    - inputs: Sources/Assets/Assets.xcassets
       outputs:
         - templateName: swift5
           output: Sources/Base/Assets+Generated.swift
           params:
             publicAccess: public
             enumName: Assets
-    - inputs: Resources/Colors.xcassets
+    - inputs: Sources/Assets/Colors.xcassets
       outputs:
         - templateName: swift5
           output: Sources/Base/Colors+Generated.swift
