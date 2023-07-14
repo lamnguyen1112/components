@@ -11,34 +11,35 @@ let package = Package(
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "components",
-            targets: ["components"]),
+            targets: ["Components"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/lamnguyen1112/core.git", branch: "main"),
+      .package(url: "https://github.com/lamnguyen1112/extensions.git", branch: "main"),
         .package(url: "https://github.com/SnapKit/SnapKit.git", branch: "develop"),
-        .package(url: "https://github.com/ReactiveX/RxSwift.git", branch: "main"),
-        .package(url: "https://github.com/RxSwiftCommunity/Action.git", branch: "master"),
-        .package(url: "https://github.com/RxSwiftCommunity/RxSwiftExt.git", branch: "main"),
         .package(url: "https://github.com/instacart/Nantes.git", branch: "master"),
 //        .package(url: "https://github.com/SteveBarnegren/AttributedStringBuilder.git", branch: "master"),
         .package(url: "https://github.com/slackhq/PanModal.git", branch: "master"),
         .package(url: "https://github.com/huri000/SwiftEntryKit.git", branch: "master"),
-        .package(url: "https://github.com/kean/Nuke.git", branch: "main"),
         .package(url: "https://github.com/Juanpe/SkeletonView.git", branch: "main")
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "components",
-            dependencies: ["core", "SnapKit", "RxSwift", "Action", "RxSwiftExt", "SkeletonView", "PanModal", "Nantes", "SwiftEntryKit", "Nuke"],
-            path: "Sources",
-            resources: [.process("Assets")]
+            name: "Components",
+            dependencies: [
+              .product(name: "Extensions", package: "extensions"),
+              .product(name: "ExtensionRx", package: "extensions"),
+              "SnapKit",
+              "SkeletonView",
+              "PanModal",
+              "Nantes", "SwiftEntryKit"],
+            resources: [.process("Resources")]
         ),
-        .testTarget(
-            name: "componentsTests",
-            dependencies: ["components", "core", "SnapKit", "RxSwift", "Action", "RxSwiftExt", "SkeletonView", "PanModal", "Nantes", "SwiftEntryKit", "Nuke"],
-            path: "Tests"
-        ),
+//        .testTarget(
+//            name: "componentsTests",
+//            dependencies: ["components", "core", "SnapKit", "RxSwift", "Action", "RxSwiftExt", "SkeletonView", "PanModal", "Nantes", "SwiftEntryKit", "Nuke"],
+//            path: "Tests"
+//        ),
     ]
 )

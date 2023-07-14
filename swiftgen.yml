@@ -1,24 +1,24 @@
 strings:
-  inputs: Sources/Assets/Localization/en.lproj/Localizable.strings
+  inputs: Sources/Components/Resources/Localization/en.lproj/Localizable.strings
   outputs:
     - templateName: structured-swift5
-      output: Sources/Base/L10n.swift
+      output: Sources/Components/Common/L10n+Generated.swift
       params:
         publicAccess: public
         enumName: L10n
 
 xcassets:
-    - inputs: Sources/Assets/Assets.xcassets
+    - inputs: Sources/Components/Resources/Assets.xcassets
       outputs:
         - templateName: swift5
-          output: Sources/Base/Assets+Generated.swift
+          output: Sources/Components/Common/Assets+Generated.swift
           params:
             publicAccess: public
             enumName: Assets
-    - inputs: Sources/Assets/Colors.xcassets
+    - inputs: Sources/Components/Resources/Colors.xcassets
       outputs:
         - templateName: swift5
-          output: Sources/Base/Colors+Generated.swift
+          output: Sources/Components/Common/Colors+Generated.swift
           params:
             publicAccess: public
             enumName: Colors

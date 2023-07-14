@@ -1,0 +1,17 @@
+"common.alert.cancel" = "Cancel";
+
+"common.alert.ok" = "OK";
+
+"common.alert.title" = "Alert";
+
+"common.error.notFoundPath" = "Not found path";
+
+"common.error.writeFileError" = "Not found path";
+
+"common.test" = "Test";
+
+"home.description" = "Description home!";
+
+"home.title" = "Home";
+
+"testing" = "Testing";

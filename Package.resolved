@@ -10,12 +10,12 @@
       }
     },
     {
-      "identity" : "core",
+      "identity" : "extensions",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/lamnguyen1112/core.git",
+      "location" : "https://github.com/lamnguyen1112/extensions.git",
       "state" : {
         "branch" : "main",
-        "revision" : "98a66b0a97aeae6e791ec61733d4e93e138b7499"
+        "revision" : "b4f508d074904688aa88de3b7104e47592a33031"
       }
     },
     {
@@ -25,15 +25,6 @@
       "state" : {
         "branch" : "master",
         "revision" : "eb99ab160da5c149e222f9a21fad83a30b5e8f35"
-      }
-    },
-    {
-      "identity" : "nuke",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/kean/Nuke.git",
-      "state" : {
-        "branch" : "main",
-        "revision" : "bf9517841d021d322c90b76eab971352c557e660"
       }
     },
     {
@@ -51,7 +42,7 @@
       "location" : "https://github.com/ReactiveX/RxSwift.git",
       "state" : {
         "branch" : "main",
-        "revision" : "95917a57a58734cd7b747361add398906e8b255c"
+        "revision" : "2ff073fc1b9c600ac9b54734aff3348110437c19"
       }
     },
     {

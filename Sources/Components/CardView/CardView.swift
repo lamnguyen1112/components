@@ -5,9 +5,9 @@
 //  Created by Lazyman on 11/29/22.
 //
 
-import core
 import SnapKit
 import UIKit
+import Extensions
 
 public class CardView: UIView {
     lazy var circleView: UIView = {
